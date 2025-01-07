@@ -1,0 +1,3379 @@
+{
+    "root": {
+        "TYPE": "root",
+        "PARENT": "",
+        "bid": "root",
+        "FINDEX": "a0",
+        "figmaid": "564:567"
+    },
+    "b760fw": {
+        "TYPE": "span",
+        "PARENT": "b6rnd7",
+        "bid": "b760fw",
+        "FINDEX": "a0",
+        "text": "Login to {AS.APP.name}",
+        "class": "bg-gradient-to-r text-transparent from-blue-500 to-purple-500 bg-clip-text",
+        "figmaid": "564:568"
+    },
+    "b6rnd7": {
+        "TYPE": "div",
+        "PARENT": "b0ej8z",
+        "bid": "b6rnd7",
+        "FINDEX": "a0",
+        "class": "text-3xl font-bold text-center text-white",
+        "figmaid": "564:569"
+    },
+    "b4ghv2": {
+        "TYPE": "label",
+        "PARENT": "b2e1u2",
+        "bid": "b4ghv2",
+        "FINDEX": "a0",
+        "text": "Email",
+        "htmlfor": "email",
+        "class": "block text-gray-700 text-sm font-bold mb-2",
+        "figmaid": "564:570"
+    },
+    "bbz9iy": {
+        "TYPE": "input",
+        "PARENT": "b2e1u2",
+        "bid": "bbz9iy",
+        "FINDEX": "a1",
+        "type": "email",
+        "name": "email",
+        "oninput": "{on_email_input}",
+        "placeholder": "Email Address",
+        "class": "shadow appearance-none border rounded w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:shadow-md",
+        "figmaid": "564:571"
+    },
+    "b2e1u2": {
+        "TYPE": "div",
+        "PARENT": "b0ej8z",
+        "bid": "b2e1u2",
+        "FINDEX": "a2",
+        "figmaid": "564:572"
+    },
+    "bw4y7e": {
+        "TYPE": "EmailSending",
+        "PARENT": "b5wqu9",
+        "bid": "bw4y7e",
+        "FINDEX": "a0",
+        "figmaid": "564:573"
+    },
+    "b5wqu9": {
+        "TYPE": "button",
+        "PARENT": "b2o7o9",
+        "bid": "b5wqu9",
+        "FINDEX": "a0",
+        "class": "flex items-center bg-white border border-gray-300 rounded-lg shadow-md px-6 py-2 text-sm font-medium text-gray-800 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 w-full justify-center",
+        "figmaid": "564:574"
+    },
+    "b2o7o9": {
+        "TYPE": "div",
+        "PARENT": "b0ej8z",
+        "bid": "b2o7o9",
+        "FINDEX": "a3",
+        "class": "flex flex-col items-center justify-center w-80 mx-auto",
+        "onclick": "{on_email_send}",
+        "figmaid": "564:575"
+    },
+    "b1e3el": {
+        "TYPE": "svg",
+        "PARENT": "by1b51",
+        "bid": "b1e3el",
+        "FINDEX": "a0",
+        "class": "h-6 w-6 mr-2",
+        "xmlns": "http://www.w3.org/2000/svg",
+        "width": "800",
+        "height": "800",
+        "viewBox": "-0.5 0 48 48",
+        "html": "<svg class=\"h-6 w-6 mr-2\" xmlns=\"http://www.w3.org/2000/svg\" width=\"800\" height=\"800\" viewBox=\"-0.5 0 48 48\" bid=\"b1e3el\"><g fill=\"none\" fill-rule=\"evenodd\"><path d=\"M9.827 24c0-1.524.253-2.986.705-4.356l-7.909-6.04A23.456 23.456 0 0 0 .213 24c0 3.737.868 7.26 2.407 10.388l7.905-6.05A13.885 13.885 0 0 1 9.827 24\" fill=\"#FBBC05\"></path><path d=\"M23.714 10.133c3.311 0 6.302 1.174 8.652 3.094L39.202 6.4C35.036 2.773 29.695.533 23.714.533a23.43 23.43 0 0 0-21.09 13.071l7.908 6.04a13.849 13.849 0 0 1 13.182-9.51\" fill=\"#EB4335\"></path><path d=\"M23.714 37.867a13.849 13.849 0 0 1-13.182-9.51l-7.909 6.038a23.43 23.43 0 0 0 21.09 13.072c5.732 0 11.205-2.036 15.312-5.849l-7.507-5.804c-2.118 1.335-4.786 2.053-7.804 2.053\" fill=\"#34A853\"></path><path d=\"M46.145 24c0-1.387-.213-2.88-.534-4.267H23.714V28.8h12.604c-.63 3.091-2.346 5.468-4.8 7.014l7.507 5.804c4.314-4.004 7.12-9.969 7.12-17.618\" fill=\"#4285F4\"></path></g></svg>",
+        "figmaid": "564:576"
+    },
+    "bx8hg9": {
+        "TYPE": "span",
+        "PARENT": "by1b51",
+        "bid": "bx8hg9",
+        "FINDEX": "a1",
+        "text": "Continue with Google",
+        "figmaid": "564:577"
+    },
+    "by1b51": {
+        "TYPE": "button",
+        "PARENT": "bzz9my",
+        "bid": "by1b51",
+        "FINDEX": "a0",
+        "class": "flex items-center bg-white border border-gray-300 rounded-lg shadow-md px-6 py-2 text-sm font-medium text-gray-800 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 w-full justify-center",
+        "figmaid": "564:578"
+    },
+    "bzz9my": {
+        "TYPE": "div",
+        "PARENT": "b0ej8z",
+        "bid": "bzz9my",
+        "FINDEX": "a5",
+        "class": "flex items-center justify-center w-80 mx-auto",
+        "onclick": "{on_google_login}",
+        "figmaid": "564:579"
+    },
+    "bl5xlw": {
+        "TYPE": "svg",
+        "PARENT": "behhjb",
+        "bid": "bl5xlw",
+        "FINDEX": "a0",
+        "class": "h-6 w-6 mr-2",
+        "xmlns": "http://www.w3.org/2000/svg",
+        "viewBox": "0 0 23 23",
+        "html": "<svg class=\"h-6 w-6 mr-2\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 23 23\" bid=\"bl5xlw\"><path fill=\"#f3f3f3\" d=\"M0 0h23v23H0z\"></path><path fill=\"#f35325\" d=\"M1 1h10v10H1z\"></path><path fill=\"#81bc06\" d=\"M12 1h10v10H12z\"></path><path fill=\"#05a6f0\" d=\"M1 12h10v10H1z\"></path><path fill=\"#ffba08\" d=\"M12 12h10v10H12z\"></path></svg>",
+        "figmaid": "564:580"
+    },
+    "bpwjsy": {
+        "TYPE": "span",
+        "PARENT": "behhjb",
+        "bid": "bpwjsy",
+        "FINDEX": "a1",
+        "text": "Continue with Microsoft",
+        "figmaid": "564:581"
+    },
+    "behhjb": {
+        "TYPE": "button",
+        "PARENT": "brrzqk",
+        "bid": "behhjb",
+        "FINDEX": "a0",
+        "class": "flex items-center bg-white border border-gray-300 rounded-lg shadow-md px-6 py-2 text-sm font-medium text-gray-800 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 w-full justify-center",
+        "figmaid": "564:582"
+    },
+    "brrzqk": {
+        "TYPE": "div",
+        "PARENT": "b0ej8z",
+        "bid": "brrzqk",
+        "FINDEX": "a6",
+        "class": "flex items-center justify-center w-80 mx-auto",
+        "onclick": "{on_microsoft_login}",
+        "figmaid": "564:583"
+    },
+    "bw68ix": {
+        "TYPE": "svg",
+        "PARENT": "b3ckmz",
+        "bid": "bw68ix",
+        "FINDEX": "a0",
+        "class": "h-6 w-6 mr-2",
+        "xmlns": "http://www.w3.org/2000/svg",
+        "viewBox": "0 0 23 23",
+        "html": "<svg class=\"h-6 w-6 mr-2\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 23 23\" bid=\"bw68ix\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M11.705 0C5.232 0 0 5.271 0 11.791c0 5.212 3.352 9.624 8.003 11.186.581.117.794-.254.794-.566 0-.273-.019-1.21-.019-2.187-3.256.703-3.934-1.406-3.934-1.406-.523-1.367-1.299-1.718-1.299-1.718-1.066-.722.078-.722.078-.722 1.182.078 1.802 1.21 1.802 1.21 1.046 1.796 2.732 1.288 3.41.976.097-.761.407-1.288.736-1.581-2.597-.273-5.329-1.288-5.329-5.818 0-1.288.465-2.343 1.201-3.162-.116-.293-.523-1.503.116-3.124 0 0 .988-.312 3.217 1.21a11.253 11.253 0 0 1 2.926-.391c.988 0 1.996.137 2.926.391 2.229-1.523 3.217-1.21 3.217-1.21.64 1.62.232 2.831.116 3.124.756.82 1.202 1.874 1.202 3.162 0 4.529-2.732 5.525-5.348 5.818.426.371.794 1.074.794 2.186 0 1.581-.019 2.85-.019 3.241 0 .312.213.684.794.566a11.782 11.782 0 0 0 8.003-11.186C23.409 5.271 18.157 0 11.705 0z\" fill=\"#24292f\"></path></svg>",
+        "figmaid": "564:584"
+    },
+    "bfdtfm": {
+        "TYPE": "span",
+        "PARENT": "b3ckmz",
+        "bid": "bfdtfm",
+        "FINDEX": "a1",
+        "text": "Continue with Github",
+        "figmaid": "564:585"
+    },
+    "b3ckmz": {
+        "TYPE": "button",
+        "PARENT": "bs6s19",
+        "bid": "b3ckmz",
+        "FINDEX": "a0",
+        "class": "flex items-center bg-white border border-gray-300 rounded-lg shadow-md px-6 py-2 text-sm font-medium text-gray-800 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 w-full justify-center",
+        "figmaid": "564:586"
+    },
+    "bs6s19": {
+        "TYPE": "div",
+        "PARENT": "b0ej8z",
+        "bid": "bs6s19",
+        "FINDEX": "a7",
+        "class": "flex items-center justify-center w-80 mx-auto",
+        "onclick": "{on_github_login}",
+        "figmaid": "564:587"
+    },
+    "bt31eq": {
+        "TYPE": "svg",
+        "PARENT": "bg8jr2",
+        "bid": "bt31eq",
+        "FINDEX": "a0",
+        "class": "h-6 w-6 mr-2",
+        "xmlns": "http://www.w3.org/2000/svg",
+        "viewBox": "0 -2 44 44",
+        "html": "<svg class=\"h-6 w-6 mr-2\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 -2 44 44\" bid=\"bt31eq\"><path d=\"M44 40h-9.725V25.938c0-3.68-1.52-6.193-4.866-6.193-2.558 0-3.981 1.696-4.643 3.33-.249.586-.21 1.403-.21 2.22V40h-9.634s.124-24.909 0-27.173h9.634v4.265c.57-1.865 3.648-4.526 8.56-4.526C39.211 12.566 44 16.474 44 24.891V40ZM5.18 9.428h-.063C2.013 9.428 0 7.351 0 4.718 0 2.034 2.072 0 5.239 0c3.164 0 5.11 2.029 5.171 4.71 0 2.633-2.007 4.718-5.23 4.718Zm-4.07 3.399h8.576V40H1.11V12.827Z\" fill=\"#007EBB\" fill-rule=\"evenodd\"></path></svg>",
+        "figmaid": "564:588"
+    },
+    "bvo4xy": {
+        "TYPE": "span",
+        "PARENT": "bg8jr2",
+        "bid": "bvo4xy",
+        "FINDEX": "a1",
+        "text": "Continue with LinkedIn",
+        "figmaid": "564:589"
+    },
+    "bg8jr2": {
+        "TYPE": "button",
+        "PARENT": "bw4w2d",
+        "bid": "bg8jr2",
+        "FINDEX": "a0",
+        "class": "flex items-center bg-white border border-gray-300 rounded-lg shadow-md px-6 py-2 text-sm font-medium text-gray-800 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 w-full justify-center",
+        "figmaid": "564:590"
+    },
+    "bw4w2d": {
+        "TYPE": "div",
+        "PARENT": "b0ej8z",
+        "bid": "bw4w2d",
+        "FINDEX": "a8",
+        "class": "flex items-center justify-center w-80 mx-auto",
+        "onclick": "{on_linkedin_login}",
+        "figmaid": "564:591"
+    },
+    "bu5bys": {
+        "TYPE": "svg",
+        "PARENT": "bkqslh",
+        "bid": "bu5bys",
+        "FINDEX": "a0",
+        "class": "h-6 w-6 mr-2",
+        "xmlns": "http://www.w3.org/2000/svg",
+        "viewBox": "0 -4 48 48",
+        "html": "<svg class=\"h-6 w-6 mr-2\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 -4 48 48\" bid=\"bu5bys\"><path d=\"M48 4.735a19.235 19.235 0 0 1-5.655 1.59A10.076 10.076 0 0 0 46.675.74a19.395 19.395 0 0 1-6.257 2.447C38.627 1.225 36.066 0 33.231 0c-5.435 0-9.844 4.521-9.844 10.098 0 .791.085 1.56.254 2.3-8.185-.423-15.44-4.438-20.3-10.555a10.281 10.281 0 0 0-1.332 5.082c0 3.502 1.738 6.593 4.38 8.405a9.668 9.668 0 0 1-4.462-1.26v.124c0 4.894 3.395 8.977 7.903 9.901a9.39 9.39 0 0 1-2.595.356 9.523 9.523 0 0 1-1.854-.18c1.254 4.01 4.888 6.932 9.199 7.01-3.37 2.71-7.618 4.325-12.23 4.325-.795 0-1.58-.047-2.35-.139C4.359 38.327 9.537 40 15.096 40c18.115 0 28.019-15.385 28.019-28.73 0-.439-.009-.878-.026-1.308A20.211 20.211 0 0 0 48 4.735\" fill=\"#00AAEC\" fill-rule=\"evenodd\"></path></svg>",
+        "figmaid": "564:592"
+    },
+    "b8igad": {
+        "TYPE": "span",
+        "PARENT": "bkqslh",
+        "bid": "b8igad",
+        "FINDEX": "a1",
+        "text": "Continue with Twitter",
+        "figmaid": "564:593"
+    },
+    "bkqslh": {
+        "TYPE": "button",
+        "PARENT": "bibmq1",
+        "bid": "bkqslh",
+        "FINDEX": "a0",
+        "class": "flex items-center bg-white border border-gray-300 rounded-lg shadow-md px-6 py-2 text-sm font-medium text-gray-800 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 w-full justify-center",
+        "figmaid": "564:594"
+    },
+    "bibmq1": {
+        "TYPE": "div",
+        "PARENT": "b0ej8z",
+        "bid": "bibmq1",
+        "FINDEX": "a9",
+        "class": "flex items-center justify-center w-80 mx-auto",
+        "onclick": "{on_twitter_login}",
+        "figmaid": "564:595"
+    },
+    "b0ej8z": {
+        "TYPE": "div",
+        "PARENT": "bp2hs3",
+        "bid": "b0ej8z",
+        "FINDEX": "a0",
+        "class": "bg-white rounded px-8 pt-6 pb-8 w-full max-w-md space-y-6",
+        "figmaid": "564:596"
+    },
+    "bp2hs3": {
+        "TYPE": "div",
+        "PARENT": "login",
+        "bid": "bp2hs3",
+        "FINDEX": "a0",
+        "class": "flex flex-col justify-center items-center bg-white py-5",
+        "figmaid": "564:597"
+    },
+    "login": {
+        "TYPE": "login",
+        "PARENT": "ui",
+        "bid": "login",
+        "FINDEX": "a0",
+        "figmaid": "564:598",
+        "class": ""
+    },
+    "menu": {
+        "TYPE": "div",
+        "PARENT": "main",
+        "bid": "menu",
+        "FINDEX": "a0",
+        "text": "",
+        "name": "menu",
+        "class": "min-h-[64px] w-full h-fit overflow-visible flex gap-4 items-center justify-center bg-[#FFFFFF]",
+        "condition": "",
+        "figmaid": "564:599"
+    },
+    "pages": {
+        "TYPE": "pages",
+        "PARENT": "main",
+        "bid": "pages",
+        "FINDEX": "a2",
+        "class": "w-full flex flex-col items-center justify-center z-40",
+        "figmaid": "564:600",
+        "name": "",
+        "first-page": "start"
+    },
+    "main": {
+        "TYPE": "main",
+        "PARENT": "ui",
+        "bid": "main",
+        "FINDEX": "a1",
+        "class": "bg-white body-font",
+        "b-login": "true",
+        "figmaid": "564:601"
+    },
+    "bkftjo": {
+        "TYPE": "patterns",
+        "PARENT": "ui",
+        "bid": "bkftjo",
+        "FINDEX": "a4",
+        "text": "",
+        "figmaid": "564:602"
+    },
+    "ui": {
+        "TYPE": "ui",
+        "PARENT": "root",
+        "bid": "ui",
+        "FINDEX": "a0",
+        "id": "ui-1",
+        "name": "APPUI",
+        "figmaid": "564:603"
+    },
+    "components": {
+        "TYPE": "components",
+        "PARENT": "ui",
+        "bid": "components",
+        "FINDEX": "a2",
+        "figmaid": "564:604",
+        "class": ""
+    },
+    "start": {
+        "TYPE": "page",
+        "PARENT": "pages",
+        "bid": "start",
+        "FINDEX": "a0",
+        "name": "START",
+        "class": "",
+        "figmaid": "564:618",
+        "condition": "",
+        "findex": "a0"
+    },
+    "elements": {
+        "TYPE": "elements",
+        "PARENT": "ui",
+        "bid": "elements",
+        "FINDEX": "a3",
+        "figmaid": "564:621",
+        "class": ""
+    },
+    "bjfqd6": {
+        "TYPE": "header",
+        "PARENT": "menu",
+        "bid": "bjfqd6",
+        "FINDEX": "a3",
+        "class": "text-[--neutral-800] body-font w-full cursor-default"
+    },
+    "bwi9mc": {
+        "TYPE": "div",
+        "PARENT": "bjfqd6",
+        "bid": "bwi9mc",
+        "FINDEX": "a0",
+        "class": "container mx-auto flex flex-wrap p-4 flex-col md:flex-row items-center"
+    },
+    "b7ytey": {
+        "TYPE": "a",
+        "PARENT": "bwi9mc",
+        "bid": "b7ytey",
+        "FINDEX": "a0",
+        "class": "flex flex-row text-[length:--h3] items-center text-[--neutral-800] hover:text-[--neutral-900] mb-4 md:mb-0 w-fit cursor-pointer",
+        "href": "/"
+    },
+    "b7vwxz": {
+        "TYPE": "img",
+        "PARENT": "b7ytey",
+        "bid": "b7vwxz",
+        "FINDEX": "a0",
+        "src": "{AS.APP.logo_url}",
+        "alt": "logo",
+        "class": "w-8 h-8 mr-4"
+    },
+    "bq7q7e": {
+        "TYPE": "span",
+        "PARENT": "b7ytey",
+        "bid": "bq7q7e",
+        "FINDEX": "a1",
+        "class": "whitespace-nowrap",
+        "text": "{AS.APP.name}",
+        "page-id": "page_69s1n"
+    },
+    "bjg4fg": {
+        "TYPE": "div",
+        "PARENT": "bwi9mc",
+        "bid": "bjg4fg",
+        "FINDEX": "a1",
+        "class": "ml-auto text-[length:--text-body] justify-center"
+    },
+    "bzsqis": {
+        "TYPE": "div",
+        "PARENT": "bjg4fg",
+        "bid": "bzsqis",
+        "FINDEX": "a0",
+        "class": "flex flex-row items-center gap-4"
+    },
+    "buufum": {
+        "TYPE": "nav",
+        "PARENT": "bzsqis",
+        "bid": "buufum",
+        "FINDEX": "a0",
+        "class": "flex flex-wrap items-center cursor-pointer",
+        "map": "AS.PAGES"
+    },
+    "bkqupy": {
+        "TYPE": "div",
+        "PARENT": "buufum",
+        "bid": "bkqupy",
+        "FINDEX": "a0",
+        "class": "{UTILS.cn('px-2 rounded cursor-pointer hover:underline', {'text-[--primary-500] underline': AS.PAGE === V})}",
+        "action": "go-to-page",
+        "page-id": "page_69s1n",
+        "text": "{V.name}"
+    },
+    "biokxc": {
+        "TYPE": "div",
+        "PARENT": "bzsqis",
+        "bid": "biokxc",
+        "FINDEX": "a1",
+        "condition": "AS.USER.IS_LOGGED_IN",
+        "class": "bg-[--neutral-400] w-8 h-8 rounded-full mr-5 flex items-center justify-center border border-[--neutral-500]"
+    },
+    "bfgo2h": {
+        "TYPE": "span",
+        "PARENT": "biokxc",
+        "bid": "bfgo2h",
+        "FINDEX": "a0",
+        "class": "capitalize",
+        "text": "{AS.USER.profile?.name?.charAt(0) || AS.USER.ddbuser?.name?.charAt(0) || \"A\"}"
+    },
+    "bh8j4s": {
+        "TYPE": "div",
+        "PARENT": "bzsqis",
+        "bid": "bh8j4s",
+        "FINDEX": "a2",
+        "condition": "AS.USER.IS_LOGGED_IN",
+        "class": "text-[--error-500] hover:text-[--error-700] cursor-pointer",
+        "action": "logout",
+        "text": "Logout"
+    },
+    "bxnr89": {
+        "TYPE": "div",
+        "PARENT": "bjg4fg",
+        "bid": "bxnr89",
+        "FINDEX": "a1",
+        "condition": "!AS.USER.IS_LOGGED_IN",
+        "class": "hover:text-[--neutral-900]",
+        "action": "login",
+        "text": "Login"
+    },
+    "page_69s1n": {
+        "TYPE": "page",
+        "PARENT": "pages",
+        "bid": "page_69s1n",
+        "FINDEX": "a1",
+        "name": "second",
+        "findex": "a1",
+        "class": ""
+    },
+    "be5ego": {
+        "TYPE": "div",
+        "PARENT": "start",
+        "bid": "be5ego",
+        "FINDEX": "a0",
+        "class": "new-div w-full flex items-center justify-center"
+    },
+    "bbixy6": {
+        "TYPE": "div",
+        "PARENT": "be5ego",
+        "bid": "bbixy6",
+        "FINDEX": "a0",
+        "name": "dropdown-menu",
+        "class": "p-8 text-[--primary-500]"
+    },
+    "bs65wb": {
+        "TYPE": "style",
+        "PARENT": "bbixy6",
+        "bid": "bs65wb",
+        "FINDEX": "a0",
+        "text": "details[open] .arrow {\n            transform: rotate(180deg);\n        }"
+    },
+    "bd0l8d": {
+        "TYPE": "details",
+        "PARENT": "bbixy6",
+        "bid": "bd0l8d",
+        "FINDEX": "a1",
+        "class": "flex items-center gap-2 relative"
+    },
+    "b9epn4": {
+        "TYPE": "summary",
+        "PARENT": "bd0l8d",
+        "bid": "b9epn4",
+        "FINDEX": "a0",
+        "class": "flex items-center gap-2 border border-[--primary-500] rounded-lg px-2"
+    },
+    "bvkhb7": {
+        "TYPE": "span",
+        "PARENT": "b9epn4",
+        "bid": "bvkhb7",
+        "FINDEX": "a0",
+        "text": "Sort By"
+    },
+    "buu48u": {
+        "TYPE": "iconify-icon",
+        "PARENT": "b9epn4",
+        "bid": "buu48u",
+        "FINDEX": "a1",
+        "class": "arrow",
+        "icon": "lineicons:chevron-down"
+    },
+    "bqlw1o": {
+        "TYPE": "div",
+        "PARENT": "bd0l8d",
+        "bid": "bqlw1o",
+        "FINDEX": "a1",
+        "name": "dropdown-menu-content",
+        "class": "absolute z-[10] right-0 flex flex-col gap-1 border border-[--primary-500] rounded-lg p-2 mt-2 text-nowrap bg-white/95"
+    },
+    "bvvvrf": {
+        "TYPE": "div",
+        "PARENT": "bqlw1o",
+        "bid": "bvvvrf",
+        "FINDEX": "a0",
+        "class": "text-lg",
+        "text": "New Arrivals"
+    },
+    "bsnq9l": {
+        "TYPE": "div",
+        "PARENT": "bqlw1o",
+        "bid": "bsnq9l",
+        "FINDEX": "a1",
+        "name": "dropdown-menu-item",
+        "class": "hover:underline cursor-pointer",
+        "text": "Item 1"
+    },
+    "bs5ro2": {
+        "TYPE": "div",
+        "PARENT": "bqlw1o",
+        "bid": "bs5ro2",
+        "FINDEX": "a2",
+        "name": "dropdown-menu-item",
+        "class": "hover:underline cursor-pointer",
+        "text": "Item 2"
+    },
+    "b23xku": {
+        "TYPE": "div",
+        "PARENT": "bqlw1o",
+        "bid": "b23xku",
+        "FINDEX": "a3",
+        "name": "dropdown-menu-item",
+        "class": "hover:underline cursor-pointer",
+        "text": "Item 3"
+    },
+    "bdl4tv": {
+        "TYPE": "div",
+        "PARENT": "start",
+        "bid": "bdl4tv",
+        "FINDEX": "a1",
+        "class": "new-div w-full flex items-center justify-center"
+    },
+    "bmboh6": {
+        "TYPE": "model",
+        "PARENT": "bdl4tv",
+        "bid": "bmboh6",
+        "FINDEX": "a0",
+        "mid": "vjnou",
+        "name": "user",
+        "op": "get_selected_one",
+        "eid": "{M.id}",
+        "class": "w-full flex flex-col p-4 border rounded border-zinc-200 relative ",
+        "comp-temp": "selected_one"
+    },
+    "bdrko2": {
+        "TYPE": "div",
+        "PARENT": "bmboh6",
+        "bid": "bdrko2",
+        "FINDEX": "a0",
+        "name": "title",
+        "class": "text-2xl font-medium text-gray-600 text-left pb-6",
+        "text": "GET SELECTED ONE OF user"
+    },
+    "bumyso": {
+        "TYPE": "div",
+        "PARENT": "bmboh6",
+        "bid": "bumyso",
+        "FINDEX": "a1",
+        "name": "user-data",
+        "class": "flex flex-col gap-4",
+        "action": "select-one"
+    },
+    "bnhing": {
+        "TYPE": "cont",
+        "PARENT": "bumyso",
+        "bid": "bnhing",
+        "FINDEX": "a0",
+        "bro:is-many": "false",
+        "name": "CONT-email",
+        "class": "w-full"
+    },
+    "bs9f6n": {
+        "TYPE": "div",
+        "PARENT": "bnhing",
+        "bid": "bs9f6n",
+        "FINDEX": "a0",
+        "class": "block text-gray-700 text-sm font-medium mb-2 capitalize",
+        "text": "email"
+    },
+    "bkivug": {
+        "TYPE": "prop",
+        "PARENT": "bnhing",
+        "bid": "bkivug",
+        "FINDEX": "a1",
+        "bro:type": "email",
+        "bro:is-many": "false",
+        "name": "email",
+        "class": "flex flex-col  w-full gap-6 "
+    },
+    "b4mcv9": {
+        "TYPE": "span",
+        "PARENT": "bkivug",
+        "bid": "b4mcv9",
+        "FINDEX": "a0",
+        "text": "{M.email}"
+    },
+    "bk9or0": {
+        "TYPE": "cont",
+        "PARENT": "bumyso",
+        "bid": "bk9or0",
+        "FINDEX": "a1",
+        "bro:is-many": "false",
+        "name": "CONT-name",
+        "class": "w-full"
+    },
+    "b4fdyh": {
+        "TYPE": "div",
+        "PARENT": "bk9or0",
+        "bid": "b4fdyh",
+        "FINDEX": "a0",
+        "class": "block text-gray-700 text-sm font-medium mb-2 capitalize",
+        "text": "name"
+    },
+    "b49y4y": {
+        "TYPE": "prop",
+        "PARENT": "bk9or0",
+        "bid": "b49y4y",
+        "FINDEX": "a1",
+        "bro:type": "text",
+        "bro:is-many": "false",
+        "name": "name",
+        "class": "flex flex-col  w-full gap-6 "
+    },
+    "bco5tn": {
+        "TYPE": "span",
+        "PARENT": "b49y4y",
+        "bid": "bco5tn",
+        "FINDEX": "a0",
+        "text": "{M.name || ''}"
+    },
+    "bxd3q8": {
+        "TYPE": "cont",
+        "PARENT": "bumyso",
+        "bid": "bxd3q8",
+        "FINDEX": "a2",
+        "bro:is-many": "true",
+        "name": "CONT-images",
+        "class": "w-full flex flex-col gap-2"
+    },
+    "bsehzh": {
+        "TYPE": "div",
+        "PARENT": "bxd3q8",
+        "bid": "bsehzh",
+        "FINDEX": "a0",
+        "variant": "with-label",
+        "class": "block text-gray-700 text-sm font-medium mb-2 capitalize",
+        "text": "images"
+    },
+    "bkolo6": {
+        "TYPE": "prop",
+        "PARENT": "bxd3q8",
+        "bid": "bkolo6",
+        "FINDEX": "a1",
+        "bro:type": "image",
+        "bro:is-many": "true",
+        "name": "images",
+        "class": "flex flex-col  w-full gap-6 "
+    },
+    "bptd2f": {
+        "TYPE": "div",
+        "PARENT": "bkolo6",
+        "bid": "bptd2f",
+        "FINDEX": "a0",
+        "name": "image",
+        "style": "background-image: url(${V?.v?.url})",
+        "class": "w-32 h-32  flex flex-shrink-0 bg-no-repeat bg-gray-200 bg-center bg-cover rounded-md"
+    },
+    "bhnjam": {
+        "TYPE": "div",
+        "PARENT": "bmboh6",
+        "bid": "bhnjam",
+        "FINDEX": "a2",
+        "class": "absolute right-2 top-2 "
+    },
+    "bi2bb8": {
+        "TYPE": "button",
+        "PARENT": "bhnjam",
+        "bid": "bi2bb8",
+        "FINDEX": "a0",
+        "op": "delete_one",
+        "class": "bg-[var(--error-400)] hover:bg-[var(--error-600)] rounded-md text-white hover:scale-110 w-5 h-5 flex justify-center items-center cursor-pointer transition-all ease-in-out  "
+    },
+    "b9wryd": {
+        "TYPE": "svg",
+        "PARENT": "bi2bb8",
+        "bid": "b9wryd",
+        "FINDEX": "a0",
+        "xmlns": "http://www.w3.org/2000/svg",
+        "width": "24",
+        "height": "24",
+        "viewBox": "0 0 24 24",
+        "fill": "none",
+        "stroke": "currentColor",
+        "stroke-width": "2",
+        "stroke-linecap": "round",
+        "stroke-linejoin": "round",
+        "innerSVG": "<path d=\"M18 6 6 18\"></path><path d=\"m6 6 12 12\"></path>"
+    },
+    "box6ro": {
+        "TYPE": "div",
+        "PARENT": "start",
+        "bid": "box6ro",
+        "FINDEX": "a2",
+        "class": "new-div w-full flex items-center justify-center"
+    },
+    "bkz0ca": {
+        "TYPE": "model",
+        "PARENT": "box6ro",
+        "bid": "bkz0ca",
+        "FINDEX": "a0",
+        "mid": "zjdfg",
+        "name": "testcontact",
+        "op": "create_one",
+        "class": "w-full flex flex-col bg-white p-2 rounded shadow ",
+        "comp-temp": "create_one"
+    },
+    "bo4t4p": {
+        "TYPE": "div",
+        "PARENT": "bkz0ca",
+        "bid": "bo4t4p",
+        "FINDEX": "a0",
+        "name": "title",
+        "class": "text-2xl font-medium text-gray-600 text-left",
+        "text": "CREATE ONE OF testcontact"
+    },
+    "buw0q2": {
+        "TYPE": "div",
+        "PARENT": "bkz0ca",
+        "bid": "buw0q2",
+        "FINDEX": "a1",
+        "name": "testcontact-data",
+        "class": "flex flex-col gap-4 p-4"
+    },
+    "bnryor": {
+        "TYPE": "cont",
+        "PARENT": "buw0q2",
+        "bid": "bnryor",
+        "FINDEX": "a0",
+        "bro:is-many": "false",
+        "name": "CONT-services",
+        "class": "flex flex-col gap-1.5"
+    },
+    "bhjjw3": {
+        "TYPE": "label",
+        "PARENT": "bnryor",
+        "bid": "bhjjw3",
+        "FINDEX": "a0",
+        "class": "text-sm font-medium text-gray-800",
+        "for": "services",
+        "text": "services"
+    },
+    "bix4nb": {
+        "TYPE": "prop",
+        "PARENT": "bnryor",
+        "bid": "bix4nb",
+        "FINDEX": "a1",
+        "ref-id": "many_of--co--checklist",
+        "name": "services",
+        "class": "w-full"
+    },
+    "br0zai": {
+        "TYPE": "div",
+        "PARENT": "bix4nb",
+        "bid": "br0zai",
+        "FINDEX": "a0",
+        "name": "services",
+        "type": "select-many",
+        "action": "oninput-update-m-select-many",
+        "class": "flex gap-3 items-center justify-start"
+    },
+    "bsfgst": {
+        "TYPE": "div",
+        "PARENT": "br0zai",
+        "bid": "bsfgst",
+        "FINDEX": "a0",
+        "map": "GFN.MODELFN.options(INFO.mid, 'services')"
+    },
+    "b5198e": {
+        "TYPE": "label",
+        "PARENT": "bsfgst",
+        "bid": "b5198e",
+        "FINDEX": "a0",
+        "class": "inline-flex cursor-pointer items-center label gap-2"
+    },
+    "bpup9b": {
+        "TYPE": "input",
+        "PARENT": "b5198e",
+        "bid": "bpup9b",
+        "FINDEX": "a0",
+        "name": "{'services' + idx}",
+        "type": "checkbox",
+        "value": "{V.id}",
+        "class": "size-5 rounded border-gray-300 bg-gray-100 text-violet-600 accent-violet-600 focus:outline focus:outline-2 focus:outline-offset-2 focus:outline-violet-500"
+    },
+    "bgid4h": {
+        "TYPE": "span",
+        "PARENT": "b5198e",
+        "bid": "bgid4h",
+        "FINDEX": "a1",
+        "class": "text-sm font-medium text-gray-800",
+        "text": "{V.name || V.id}"
+    },
+    "b1ndgc": {
+        "TYPE": "cont",
+        "PARENT": "buw0q2",
+        "bid": "b1ndgc",
+        "FINDEX": "a1",
+        "bro:is-many": "false",
+        "name": "CONT-image",
+        "class": "flex flex-col gap-1.5"
+    },
+    "b01fay": {
+        "TYPE": "label",
+        "PARENT": "b1ndgc",
+        "bid": "b01fay",
+        "FINDEX": "a0",
+        "class": "text-sm font-medium text-gray-800",
+        "for": "image",
+        "text": "image"
+    },
+    "b5o6ts": {
+        "TYPE": "prop",
+        "PARENT": "b1ndgc",
+        "bid": "b5o6ts",
+        "FINDEX": "a1",
+        "ref-id": "image--co--dnd",
+        "name": "image",
+        "class": "w-full flex flex-col md:flex-row items-center justify-center  gap-4"
+    },
+    "be7721": {
+        "TYPE": "div",
+        "PARENT": "b5o6ts",
+        "bid": "be7721",
+        "FINDEX": "a0",
+        "class": "flex flex-col gap-1.5"
+    },
+    "b6jnv9": {
+        "TYPE": "p",
+        "PARENT": "be7721",
+        "bid": "b6jnv9",
+        "FINDEX": "a0",
+        "class": "label",
+        "text": "Select an image"
+    },
+    "b7k68g": {
+        "TYPE": "label",
+        "PARENT": "be7721",
+        "bid": "b7k68g",
+        "FINDEX": "a1",
+        "for": "zjdfg-image-dropzone-image-create",
+        "class": "flex cursor-pointer w-full min-h-32 flex-col items-center justify-center rounded-md border border-dashed border-gray-400 bg-gray-100 hover:bg-gray-200",
+        "condition": "!M.__meta?.props?.image?.progress"
+    },
+    "b44pbf": {
+        "TYPE": "div",
+        "PARENT": "b7k68g",
+        "bid": "b44pbf",
+        "FINDEX": "a0",
+        "class": "flex flex-col items-center justify-center px-6 py-5"
+    },
+    "budjim": {
+        "TYPE": "svg",
+        "PARENT": "b44pbf",
+        "bid": "budjim",
+        "FINDEX": "a0",
+        "class": "mb-4 h-8 w-8 text-gray-500",
+        "aria-hidden": "true",
+        "xmlns": "http://www.w3.org/2000/svg",
+        "fill": "none",
+        "viewBox": "0 0 20 16",
+        "innerSVG": "<path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 13h3a3 3 0 0 0 0-6h-.025A5.56 5.56 0 0 0 16 6.5 5.5 5.5 0 0 0 5.207 5.021C5.137 5.017 5.071 5 5 5a4 4 0 0 0 0 8h2.167M10 15V6m0 0L8 8m2-2 2 2\"></path>"
+    },
+    "brek4n": {
+        "TYPE": "p",
+        "PARENT": "b44pbf",
+        "bid": "brek4n",
+        "FINDEX": "a1",
+        "class": "pb-1"
+    },
+    "b5uaug": {
+        "TYPE": "span",
+        "PARENT": "brek4n",
+        "bid": "b5uaug",
+        "FINDEX": "a0",
+        "class": "font-semibold",
+        "text": "Click to upload"
+    },
+    "bff9qr": {
+        "TYPE": "p",
+        "PARENT": "b44pbf",
+        "bid": "bff9qr",
+        "FINDEX": "a2",
+        "class": "helper-text",
+        "text": "SVG, PNG, JPG or GIF (MAX. 800x400px)"
+    },
+    "bkrhxu": {
+        "TYPE": "input",
+        "PARENT": "b7k68g",
+        "bid": "bkrhxu",
+        "FINDEX": "a1",
+        "id": "zjdfg-image-dropzone-image-create",
+        "name": "image",
+        "type": "file",
+        "action": "oninput-update-m-file",
+        "class": "hidden"
+    },
+    "b5u79s": {
+        "TYPE": "div",
+        "PARENT": "be7721",
+        "bid": "b5u79s",
+        "FINDEX": "a2",
+        "class": "flex cursor-pointer flex-col items-center justify-center w-full min-h-32  rounded-md border border-dashed border-gray-400 bg-gray-100 hover:bg-gray-200",
+        "condition": "M.__meta?.props?.image?.progress === 'uploading'"
+    },
+    "bzih2i": {
+        "TYPE": "div",
+        "PARENT": "b5u79s",
+        "bid": "bzih2i",
+        "FINDEX": "a0",
+        "class": "flex flex-col items-center justify-center px-6 py-5 gap-[10px]"
+    },
+    "btstju": {
+        "TYPE": "iconify-icon",
+        "PARENT": "bzih2i",
+        "bid": "btstju",
+        "FINDEX": "a0",
+        "icon": "line-md:loading-twotone-loop",
+        "width": "24",
+        "height": "24"
+    },
+    "b9c4d1": {
+        "TYPE": "p",
+        "PARENT": "bzih2i",
+        "bid": "b9c4d1",
+        "FINDEX": "a1",
+        "class": "pb-1",
+        "text": "Uploading"
+    },
+    "bf7grj": {
+        "TYPE": "div",
+        "PARENT": "be7721",
+        "bid": "bf7grj",
+        "FINDEX": "a3",
+        "class": "flex cursor-pointer flex-col items-center justify-center w-full min-h-32  rounded-md border border-dashed border-gray-400 bg-gray-100 hover:bg-gray-200",
+        "condition": "M.__meta?.props?.image?.progress === 'done'"
+    },
+    "brw796": {
+        "TYPE": "div",
+        "PARENT": "bf7grj",
+        "bid": "brw796",
+        "FINDEX": "a0",
+        "class": "flex items-center justify-center px-6 py-5 gap-[10px]"
+    },
+    "bclg6d": {
+        "TYPE": "div",
+        "PARENT": "brw796",
+        "bid": "bclg6d",
+        "FINDEX": "a0",
+        "name": "image",
+        "style": "background-image: url(${M.image?.url})",
+        "condition": "M.image?.url",
+        "class": "w-32 h-32 flex flex-shrink-0 bg-no-repeat bg-gray-200 bg-center bg-cover rounded-md"
+    },
+    "bxhvvn": {
+        "TYPE": "div",
+        "PARENT": "brw796",
+        "bid": "bxhvvn",
+        "FINDEX": "a1",
+        "class": "text-[#363636] truncate",
+        "text": "{M.image?.name}"
+    },
+    "bb6ihj": {
+        "TYPE": "label",
+        "PARENT": "brw796",
+        "bid": "bb6ihj",
+        "FINDEX": "a2",
+        "for": "zjdfg-image-dropzone-image-create"
+    },
+    "b8htxd": {
+        "TYPE": "div",
+        "PARENT": "bb6ihj",
+        "bid": "b8htxd",
+        "FINDEX": "a0",
+        "class": "rounded p-2 bg-[#FFCAC9]",
+        "text": "Change File"
+    },
+    "b3dz0q": {
+        "TYPE": "input",
+        "PARENT": "bb6ihj",
+        "bid": "b3dz0q",
+        "FINDEX": "a1",
+        "id": "zjdfg-image-dropzone-image-create",
+        "name": "image",
+        "type": "file",
+        "action": "oninput-update-m-file",
+        "class": "hidden"
+    },
+    "b0xle1": {
+        "TYPE": "div",
+        "PARENT": "b5o6ts",
+        "bid": "b0xle1",
+        "FINDEX": "a1",
+        "class": "font-bold text-lg",
+        "text": "Or"
+    },
+    "bpeqix": {
+        "TYPE": "div",
+        "PARENT": "b5o6ts",
+        "bid": "bpeqix",
+        "FINDEX": "a2",
+        "class": "flex flex-col gap-1.5"
+    },
+    "bph7ce": {
+        "TYPE": "p",
+        "PARENT": "bpeqix",
+        "bid": "bph7ce",
+        "FINDEX": "a0",
+        "class": "label",
+        "text": "Paste an image URL"
+    },
+    "b089g1": {
+        "TYPE": "div",
+        "PARENT": "bpeqix",
+        "bid": "b089g1",
+        "FINDEX": "a1",
+        "name": "image",
+        "style": "background-image: url(${M.image?.url})",
+        "condition": "M.image?.url",
+        "class": "w-32 h-32 flex flex-shrink-0 bg-no-repeat bg-gray-200 bg-center bg-cover rounded-md"
+    },
+    "bpyyov": {
+        "TYPE": "input",
+        "PARENT": "bpeqix",
+        "bid": "bpyyov",
+        "FINDEX": "a2",
+        "name": "image",
+        "value": "{M.image?.url}",
+        "type": "text",
+        "action": "oninput-update-m-file",
+        "class": "w-full rounded-md border border-[#CBD5E1] bg-white px-3 py-2 leading-6 transition-all selection:bg-violet-400 selection:text-white placeholder:text-base placeholder:font-normal placeholder:text-gray-400 hover:border-gray-400 focus:border-gray-200 focus:outline-2 focus:outline-offset-2 focus:outline-violet-600"
+    },
+    "b2qmhi": {
+        "TYPE": "cont",
+        "PARENT": "buw0q2",
+        "bid": "b2qmhi",
+        "FINDEX": "a2",
+        "bro:is-many": "false",
+        "name": "CONT-name",
+        "class": "flex flex-col gap-1.5"
+    },
+    "bmy8ud": {
+        "TYPE": "label",
+        "PARENT": "b2qmhi",
+        "bid": "bmy8ud",
+        "FINDEX": "a0",
+        "class": "text-sm font-medium text-gray-800",
+        "for": "name",
+        "text": "name"
+    },
+    "bzv3qg": {
+        "TYPE": "prop",
+        "PARENT": "b2qmhi",
+        "bid": "bzv3qg",
+        "FINDEX": "a1",
+        "ref-id": "text--co",
+        "name": "name",
+        "class": "w-full"
+    },
+    "b08hj3": {
+        "TYPE": "input",
+        "PARENT": "bzv3qg",
+        "bid": "b08hj3",
+        "FINDEX": "a0",
+        "name": "name",
+        "id": "name",
+        "type": "text",
+        "placeholder": "name",
+        "action": "oninput-update-m",
+        "class": "w-full rounded-md border border-[#CBD5E1] bg-white px-3 py-2 leading-6 transition-all selection:bg-violet-400 selection:text-white placeholder:text-base placeholder:font-normal placeholder:text-gray-400 hover:border-gray-400 focus:border-gray-200 focus:outline-2 focus:outline-offset-2 focus:outline-violet-600"
+    },
+    "b12igo": {
+        "TYPE": "div",
+        "PARENT": "bkz0ca",
+        "bid": "b12igo",
+        "FINDEX": "a2",
+        "class": "flex-row flex justify-end items-end pt-5 gap-4"
+    },
+    "boo5lw": {
+        "TYPE": "button",
+        "PARENT": "b12igo",
+        "bid": "boo5lw",
+        "FINDEX": "a0",
+        "op": "create_one",
+        "class": "bg-[var(--primary-500)] hover:bg-[var(--primary-600)] text-white font-medium py-2 px-6 rounded-xl focus:outline-none w-fit text-sm",
+        "condition": "CS.status !== 'validate-failed'",
+        "text": "CREATE"
+    },
+    "biinkp": {
+        "TYPE": "div",
+        "PARENT": "start",
+        "bid": "biinkp",
+        "FINDEX": "a3",
+        "class": "new-div w-full flex items-center justify-center"
+    },
+    "bnx1v9": {
+        "TYPE": "model",
+        "PARENT": "biinkp",
+        "bid": "bnx1v9",
+        "FINDEX": "a0",
+        "mid": "zjdfg",
+        "name": "testcontact",
+        "op": "get_one",
+        "eid": "{M.id}",
+        "class": "w-full flex flex-col p-4 border rounded border-zinc-200 relative ",
+        "comp-temp": "get_one"
+    },
+    "b20oys": {
+        "TYPE": "div",
+        "PARENT": "bnx1v9",
+        "bid": "b20oys",
+        "FINDEX": "a0",
+        "name": "title",
+        "class": "text-2xl font-medium text-gray-600 text-left pb-6",
+        "text": "GET ONE OF testcontact"
+    },
+    "b38knu": {
+        "TYPE": "div",
+        "PARENT": "bnx1v9",
+        "bid": "b38knu",
+        "FINDEX": "a1",
+        "name": "testcontact-data",
+        "class": "flex flex-col gap-4",
+        "action": "select-one"
+    },
+    "bhjzel": {
+        "TYPE": "cont",
+        "PARENT": "b38knu",
+        "bid": "bhjzel",
+        "FINDEX": "a0",
+        "bro:is-many": "false",
+        "name": "CONT-services",
+        "class": "w-full"
+    },
+    "bm35sr": {
+        "TYPE": "div",
+        "PARENT": "bhjzel",
+        "bid": "bm35sr",
+        "FINDEX": "a0",
+        "class": "block text-gray-700 text-sm font-medium mb-2 capitalize",
+        "text": "services"
+    },
+    "bcv4nr": {
+        "TYPE": "prop",
+        "PARENT": "bhjzel",
+        "bid": "bcv4nr",
+        "FINDEX": "a1",
+        "bro:type": "many_of",
+        "bro:is-many": "false",
+        "name": "services",
+        "class": "flex flex-col  w-full gap-6 "
+    },
+    "btosj2": {
+        "TYPE": "div",
+        "PARENT": "bcv4nr",
+        "bid": "btosj2",
+        "FINDEX": "a0",
+        "map": "M.services",
+        "text": "{V || ''}"
+    },
+    "bjz0u9": {
+        "TYPE": "cont",
+        "PARENT": "b38knu",
+        "bid": "bjz0u9",
+        "FINDEX": "a1",
+        "bro:is-many": "false",
+        "name": "CONT-image",
+        "class": "w-full"
+    },
+    "bm2k6u": {
+        "TYPE": "div",
+        "PARENT": "bjz0u9",
+        "bid": "bm2k6u",
+        "FINDEX": "a0",
+        "class": "block text-gray-700 text-sm font-medium mb-2 capitalize",
+        "text": "image"
+    },
+    "b76md3": {
+        "TYPE": "prop",
+        "PARENT": "bjz0u9",
+        "bid": "b76md3",
+        "FINDEX": "a1",
+        "bro:type": "image",
+        "bro:is-many": "false",
+        "name": "image",
+        "class": "flex flex-col w-full gap-6"
+    },
+    "bokck3": {
+        "TYPE": "div",
+        "PARENT": "b76md3",
+        "bid": "bokck3",
+        "FINDEX": "a0",
+        "name": "image",
+        "style": "background-image: url(${M.image?.url})",
+        "class": "w-32 h-32  flex flex-shrink-0 bg-no-repeat bg-gray-200 bg-center bg-cover rounded-md"
+    },
+    "bjjsk6": {
+        "TYPE": "cont",
+        "PARENT": "b38knu",
+        "bid": "bjjsk6",
+        "FINDEX": "a2",
+        "bro:is-many": "false",
+        "name": "CONT-name",
+        "class": "w-full"
+    },
+    "b0frhr": {
+        "TYPE": "div",
+        "PARENT": "bjjsk6",
+        "bid": "b0frhr",
+        "FINDEX": "a0",
+        "class": "block text-gray-700 text-sm font-medium mb-2 capitalize",
+        "text": "name"
+    },
+    "bp1emd": {
+        "TYPE": "prop",
+        "PARENT": "bjjsk6",
+        "bid": "bp1emd",
+        "FINDEX": "a1",
+        "bro:type": "text",
+        "bro:is-many": "false",
+        "name": "name",
+        "class": "flex flex-col  w-full gap-6 "
+    },
+    "bo0zjw": {
+        "TYPE": "span",
+        "PARENT": "bp1emd",
+        "bid": "bo0zjw",
+        "FINDEX": "a0",
+        "text": "{M.name || ''}"
+    },
+    "b1xxrq": {
+        "TYPE": "div",
+        "PARENT": "bnx1v9",
+        "bid": "b1xxrq",
+        "FINDEX": "a2",
+        "class": "absolute right-2 top-2 "
+    },
+    "bbsthn": {
+        "TYPE": "button",
+        "PARENT": "b1xxrq",
+        "bid": "bbsthn",
+        "FINDEX": "a0",
+        "op": "delete_one",
+        "class": "bg-[var(--error-400)] hover:bg-[var(--error-600)] rounded-md text-white hover:scale-110 w-5 h-5 flex justify-center items-center cursor-pointer transition-all ease-in-out  "
+    },
+    "bnu7lx": {
+        "TYPE": "svg",
+        "PARENT": "bbsthn",
+        "bid": "bnu7lx",
+        "FINDEX": "a0",
+        "xmlns": "http://www.w3.org/2000/svg",
+        "width": "24",
+        "height": "24",
+        "viewBox": "0 0 24 24",
+        "fill": "none",
+        "stroke": "currentColor",
+        "stroke-width": "2",
+        "stroke-linecap": "round",
+        "stroke-linejoin": "round",
+        "innerSVG": "<path d=\"M18 6 6 18\"></path><path d=\"m6 6 12 12\"></path>"
+    },
+    "bkkty5": {
+        "TYPE": "div",
+        "PARENT": "start",
+        "bid": "bkkty5",
+        "FINDEX": "a6",
+        "class": "new-div w-full flex items-center justify-center"
+    },
+    "bkr2bj": {
+        "TYPE": "model",
+        "PARENT": "bkkty5",
+        "bid": "bkr2bj",
+        "FINDEX": "a0",
+        "mid": "zjdfg",
+        "name": "testcontact",
+        "op": "get_many",
+        "class": "relative w-full flex flex-col bg-white p-2 rounded shadow-[0px_1px_3px_0px_#0000001a]",
+        "onclick": "{(e) => set_show_relation_table(false)}",
+        "comp-temp": "get_many_table"
+    },
+    "bxzosj": {
+        "TYPE": "div",
+        "PARENT": "bkr2bj",
+        "bid": "bxzosj",
+        "FINDEX": "a0",
+        "name": "title",
+        "class": "text-2xl font-medium text-gray-600 text-left",
+        "text": "LIST OF testcontact"
+    },
+    "bkwlyu": {
+        "TYPE": "table",
+        "PARENT": "bkr2bj",
+        "bid": "bkwlyu",
+        "FINDEX": "a1",
+        "class": "border-collapse border"
+    },
+    "be0u4b": {
+        "TYPE": "thead",
+        "PARENT": "bkwlyu",
+        "bid": "be0u4b",
+        "FINDEX": "a0"
+    },
+    "bkjrn2": {
+        "TYPE": "tr",
+        "PARENT": "be0u4b",
+        "bid": "bkjrn2",
+        "FINDEX": "a0",
+        "class": "border border-collapse"
+    },
+    "b0flg4": {
+        "TYPE": "span",
+        "PARENT": "bkjrn2",
+        "bid": "b0flg4",
+        "FINDEX": "a0",
+        "react-tag": "th",
+        "class": "border border-collapse",
+        "text": "services"
+    },
+    "bm1258": {
+        "TYPE": "span",
+        "PARENT": "bkjrn2",
+        "bid": "bm1258",
+        "FINDEX": "a1",
+        "react-tag": "th",
+        "class": "border border-collapse",
+        "text": "image"
+    },
+    "bs5j5z": {
+        "TYPE": "span",
+        "PARENT": "bkjrn2",
+        "bid": "bs5j5z",
+        "FINDEX": "a2",
+        "react-tag": "th",
+        "class": "border border-collapse",
+        "text": "name"
+    },
+    "blbctm": {
+        "TYPE": "span",
+        "PARENT": "bkjrn2",
+        "bid": "blbctm",
+        "FINDEX": "a3",
+        "react-tag": "th",
+        "class": "border border-collapse",
+        "text": "id"
+    },
+    "bv6yx6": {
+        "TYPE": "tbody",
+        "PARENT": "bkwlyu",
+        "bid": "bv6yx6",
+        "FINDEX": "a1"
+    },
+    "bnokq5": {
+        "TYPE": "tr",
+        "PARENT": "bv6yx6",
+        "bid": "bnokq5",
+        "FINDEX": "a0",
+        "map": "{data: 'M', V: 'M'}",
+        "class": "border border-collapse"
+    },
+    "bgdxey": {
+        "TYPE": "span",
+        "PARENT": "bnokq5",
+        "bid": "bgdxey",
+        "FINDEX": "a0",
+        "react-tag": "td",
+        "class": "border border-collapse"
+    },
+    "bizbs6": {
+        "TYPE": "prop",
+        "PARENT": "bgdxey",
+        "bid": "bizbs6",
+        "FINDEX": "a0",
+        "bro:type": "many_of",
+        "bro:is-many": "false",
+        "name": "services",
+        "class": "flex flex-col  w-full gap-6 "
+    },
+    "bkfm1j": {
+        "TYPE": "div",
+        "PARENT": "bizbs6",
+        "bid": "bkfm1j",
+        "FINDEX": "a0",
+        "map": "M.services",
+        "text": "{V || ''}"
+    },
+    "bcy4ns": {
+        "TYPE": "span",
+        "PARENT": "bnokq5",
+        "bid": "bcy4ns",
+        "FINDEX": "a1",
+        "react-tag": "td",
+        "class": "border border-collapse"
+    },
+    "b8j5uo": {
+        "TYPE": "prop",
+        "PARENT": "bcy4ns",
+        "bid": "b8j5uo",
+        "FINDEX": "a0",
+        "bro:type": "image",
+        "bro:is-many": "false",
+        "name": "image",
+        "class": "flex flex-col  w-full gap-6 "
+    },
+    "b2r1kp": {
+        "TYPE": "div",
+        "PARENT": "b8j5uo",
+        "bid": "b2r1kp",
+        "FINDEX": "a0",
+        "name": "image",
+        "style": "background-image: url(${M.image?.url})",
+        "class": "w-32 h-32  flex flex-shrink-0 bg-no-repeat bg-gray-200 bg-center bg-cover rounded-md"
+    },
+    "b6zlfg": {
+        "TYPE": "span",
+        "PARENT": "bnokq5",
+        "bid": "b6zlfg",
+        "FINDEX": "a2",
+        "react-tag": "td",
+        "class": "border border-collapse"
+    },
+    "be4gna": {
+        "TYPE": "prop",
+        "PARENT": "b6zlfg",
+        "bid": "be4gna",
+        "FINDEX": "a0",
+        "bro:type": "text",
+        "bro:is-many": "false",
+        "name": "name",
+        "class": "flex flex-col  w-full gap-6 "
+    },
+    "blkf7i": {
+        "TYPE": "span",
+        "PARENT": "be4gna",
+        "bid": "blkf7i",
+        "FINDEX": "a0",
+        "text": "{M.name || ''}"
+    },
+    "bvx74f": {
+        "TYPE": "span",
+        "PARENT": "bnokq5",
+        "bid": "bvx74f",
+        "FINDEX": "a3",
+        "react-tag": "td",
+        "class": "border border-collapse"
+    },
+    "bs3kqq": {
+        "TYPE": "prop",
+        "PARENT": "bvx74f",
+        "bid": "bs3kqq",
+        "FINDEX": "a0",
+        "bro:type": "serial",
+        "bro:is-many": "false",
+        "name": "id",
+        "class": "flex flex-col  w-full gap-6 "
+    },
+    "bl19k5": {
+        "TYPE": "span",
+        "PARENT": "bs3kqq",
+        "bid": "bl19k5",
+        "FINDEX": "a0",
+        "text": "{M.id || ''}"
+    },
+    "bi1p33": {
+        "TYPE": "div",
+        "PARENT": "start",
+        "bid": "bi1p33",
+        "FINDEX": "a7",
+        "class": "new-div w-full flex items-center justify-center"
+    },
+    "bh5czr": {
+        "TYPE": "model",
+        "PARENT": "bi1p33",
+        "bid": "bh5czr",
+        "FINDEX": "a0",
+        "mid": "zjdfg",
+        "name": "testcontact",
+        "op": "get_many",
+        "class": "w-full flex flex-col bg-white p-2 rounded shadow-[0px_1px_3px_0px_#0000001a]",
+        "comp-temp": "get_many"
+    },
+    "btlcm2": {
+        "TYPE": "div",
+        "PARENT": "bh5czr",
+        "bid": "btlcm2",
+        "FINDEX": "a0",
+        "name": "title",
+        "class": "text-2xl font-medium text-gray-600 text-left ",
+        "text": "LIST OF testcontact"
+    },
+    "b7qxp5": {
+        "TYPE": "div",
+        "PARENT": "bh5czr",
+        "bid": "b7qxp5",
+        "FINDEX": "a1",
+        "name": "testcontact-data",
+        "class": "flex flex-col gap-2"
+    },
+    "bmr3ee": {
+        "TYPE": "model",
+        "PARENT": "b7qxp5",
+        "bid": "bmr3ee",
+        "FINDEX": "a0",
+        "mid": "zjdfg",
+        "name": "testcontact",
+        "op": "get_one",
+        "eid": "{M.id}",
+        "class": "w-full flex flex-col p-4 border rounded border-zinc-200 relative ",
+        "comp-temp": "get_one"
+    },
+    "b34baz": {
+        "TYPE": "div",
+        "PARENT": "bmr3ee",
+        "bid": "b34baz",
+        "FINDEX": "a0",
+        "name": "title",
+        "class": "text-2xl font-medium text-gray-600 text-left pb-6",
+        "text": "GET ONE OF testcontact"
+    },
+    "bhwxgn": {
+        "TYPE": "div",
+        "PARENT": "bmr3ee",
+        "bid": "bhwxgn",
+        "FINDEX": "a1",
+        "name": "testcontact-data",
+        "class": "flex flex-col gap-4",
+        "action": "select-one"
+    },
+    "b19n82": {
+        "TYPE": "cont",
+        "PARENT": "bhwxgn",
+        "bid": "b19n82",
+        "FINDEX": "a0",
+        "bro:is-many": "false",
+        "name": "CONT-services",
+        "class": "w-full"
+    },
+    "bageyg": {
+        "TYPE": "div",
+        "PARENT": "b19n82",
+        "bid": "bageyg",
+        "FINDEX": "a0",
+        "class": "block text-gray-700 text-sm font-medium mb-2 capitalize",
+        "text": "services"
+    },
+    "bhnxo4": {
+        "TYPE": "prop",
+        "PARENT": "b19n82",
+        "bid": "bhnxo4",
+        "FINDEX": "a1",
+        "bro:type": "many_of",
+        "bro:is-many": "false",
+        "name": "services",
+        "class": "flex flex-col  w-full gap-6 "
+    },
+    "b8e3bt": {
+        "TYPE": "div",
+        "PARENT": "bhnxo4",
+        "bid": "b8e3bt",
+        "FINDEX": "a0",
+        "map": "M.services",
+        "text": "{V || ''}"
+    },
+    "b7qw0j": {
+        "TYPE": "cont",
+        "PARENT": "bhwxgn",
+        "bid": "b7qw0j",
+        "FINDEX": "a1",
+        "bro:is-many": "false",
+        "name": "CONT-image",
+        "class": "w-full"
+    },
+    "bdi2ts": {
+        "TYPE": "div",
+        "PARENT": "b7qw0j",
+        "bid": "bdi2ts",
+        "FINDEX": "a0",
+        "class": "block text-gray-700 text-sm font-medium mb-2 capitalize",
+        "text": "image"
+    },
+    "blyb0n": {
+        "TYPE": "prop",
+        "PARENT": "b7qw0j",
+        "bid": "blyb0n",
+        "FINDEX": "a1",
+        "bro:type": "image",
+        "bro:is-many": "false",
+        "name": "image",
+        "class": "flex flex-col  w-full gap-6 "
+    },
+    "b3h0xw": {
+        "TYPE": "div",
+        "PARENT": "blyb0n",
+        "bid": "b3h0xw",
+        "FINDEX": "a0",
+        "name": "image",
+        "style": "background-image: url(${M.image?.url})",
+        "class": "w-32 h-32  flex flex-shrink-0 bg-no-repeat bg-gray-200 bg-center bg-cover rounded-md"
+    },
+    "bopvpa": {
+        "TYPE": "cont",
+        "PARENT": "bhwxgn",
+        "bid": "bopvpa",
+        "FINDEX": "a2",
+        "bro:is-many": "false",
+        "name": "CONT-name",
+        "class": "w-full"
+    },
+    "babcb0": {
+        "TYPE": "div",
+        "PARENT": "bopvpa",
+        "bid": "babcb0",
+        "FINDEX": "a0",
+        "class": "block text-gray-700 text-sm font-medium mb-2 capitalize",
+        "text": "name"
+    },
+    "boe5gf": {
+        "TYPE": "prop",
+        "PARENT": "bopvpa",
+        "bid": "boe5gf",
+        "FINDEX": "a1",
+        "bro:type": "text",
+        "bro:is-many": "false",
+        "name": "name",
+        "class": "flex flex-col  w-full gap-6 "
+    },
+    "bcewtt": {
+        "TYPE": "span",
+        "PARENT": "boe5gf",
+        "bid": "bcewtt",
+        "FINDEX": "a0",
+        "text": "{M.name || ''}"
+    },
+    "bh5sxa": {
+        "TYPE": "div",
+        "PARENT": "bmr3ee",
+        "bid": "bh5sxa",
+        "FINDEX": "a2",
+        "class": "absolute right-2 top-2 "
+    },
+    "bk31tb": {
+        "TYPE": "button",
+        "PARENT": "bh5sxa",
+        "bid": "bk31tb",
+        "FINDEX": "a0",
+        "op": "delete_one",
+        "class": "bg-[var(--error-400)] hover:bg-[var(--error-600)] rounded-md text-white hover:scale-110 w-5 h-5 flex justify-center items-center cursor-pointer transition-all ease-in-out  "
+    },
+    "b8uv53": {
+        "TYPE": "svg",
+        "PARENT": "bk31tb",
+        "bid": "b8uv53",
+        "FINDEX": "a0",
+        "xmlns": "http://www.w3.org/2000/svg",
+        "width": "24",
+        "height": "24",
+        "viewBox": "0 0 24 24",
+        "fill": "none",
+        "stroke": "currentColor",
+        "stroke-width": "2",
+        "stroke-linecap": "round",
+        "stroke-linejoin": "round",
+        "innerSVG": "<path d=\"M18 6 6 18\"></path><path d=\"m6 6 12 12\"></path>"
+    },
+    "bynh4s": {
+        "TYPE": "div",
+        "PARENT": "start",
+        "bid": "bynh4s",
+        "FINDEX": "a8",
+        "class": "new-div w-full flex items-center justify-center"
+    },
+    "bg8iq8": {
+        "TYPE": "model",
+        "PARENT": "bynh4s",
+        "bid": "bg8iq8",
+        "FINDEX": "a0",
+        "mid": "zjdfg",
+        "name": "testcontact",
+        "op": "get_many",
+        "class": "hidden",
+        "comp-temp": "echart-basic"
+    },
+    "bvqr7r": {
+        "TYPE": "div",
+        "PARENT": "start",
+        "bid": "bvqr7r",
+        "FINDEX": "aA",
+        "class": "new-div w-full flex items-center justify-center"
+    },
+    "b8vbhh": {
+        "TYPE": "model",
+        "PARENT": "bvqr7r",
+        "bid": "b8vbhh",
+        "FINDEX": "a0",
+        "mid": "zjdfg",
+        "name": "testcontact",
+        "op": "get_many",
+        "class": "relative w-full flex flex-col bg-white p-2 shadow rounded",
+        "onclick": "{(e) => set_show_relation_table(false)}",
+        "comp-temp": "get_many_table"
+    },
+    "bbf7no": {
+        "TYPE": "div",
+        "PARENT": "b8vbhh",
+        "bid": "bbf7no",
+        "FINDEX": "a0",
+        "name": "title",
+        "class": "text-2xl font-medium text-gray-600 text-left",
+        "text": "LIST OF testcontact"
+    },
+    "bgmhwp": {
+        "TYPE": "table",
+        "PARENT": "b8vbhh",
+        "bid": "bgmhwp",
+        "FINDEX": "a1",
+        "class": "border-collapse border "
+    },
+    "bgfvjc": {
+        "TYPE": "thead",
+        "PARENT": "bgmhwp",
+        "bid": "bgfvjc",
+        "FINDEX": "a0"
+    },
+    "b3ey5y": {
+        "TYPE": "tr",
+        "PARENT": "bgfvjc",
+        "bid": "b3ey5y",
+        "FINDEX": "a0",
+        "class": "border border-collapse"
+    },
+    "bhihty": {
+        "TYPE": "span",
+        "PARENT": "b3ey5y",
+        "bid": "bhihty",
+        "FINDEX": "a0",
+        "react-tag": "th",
+        "class": "border border-collapse",
+        "text": "services"
+    },
+    "by63hb": {
+        "TYPE": "span",
+        "PARENT": "b3ey5y",
+        "bid": "by63hb",
+        "FINDEX": "a1",
+        "react-tag": "th",
+        "class": "border border-collapse",
+        "text": "image"
+    },
+    "b4u2cm": {
+        "TYPE": "span",
+        "PARENT": "b3ey5y",
+        "bid": "b4u2cm",
+        "FINDEX": "a2",
+        "react-tag": "th",
+        "class": "border border-collapse",
+        "text": "name"
+    },
+    "bq4tdx": {
+        "TYPE": "span",
+        "PARENT": "b3ey5y",
+        "bid": "bq4tdx",
+        "FINDEX": "a3",
+        "react-tag": "th",
+        "class": "border border-collapse",
+        "text": "id"
+    },
+    "bc724b": {
+        "TYPE": "tbody",
+        "PARENT": "bgmhwp",
+        "bid": "bc724b",
+        "FINDEX": "a1"
+    },
+    "b3ns9x": {
+        "TYPE": "tr",
+        "PARENT": "bc724b",
+        "bid": "b3ns9x",
+        "FINDEX": "a0",
+        "map": "{data: 'M', V: 'M'}",
+        "class": "border border-collapse"
+    },
+    "b6kp9t": {
+        "TYPE": "span",
+        "PARENT": "b3ns9x",
+        "bid": "b6kp9t",
+        "FINDEX": "a0",
+        "react-tag": "td",
+        "class": "border border-collapse"
+    },
+    "blv5xv": {
+        "TYPE": "prop",
+        "PARENT": "b6kp9t",
+        "bid": "blv5xv",
+        "FINDEX": "a0",
+        "bro:type": "many_of",
+        "bro:is-many": "false",
+        "name": "services",
+        "class": "flex flex-col  w-full gap-6 "
+    },
+    "bljzgx": {
+        "TYPE": "div",
+        "PARENT": "blv5xv",
+        "bid": "bljzgx",
+        "FINDEX": "a0",
+        "map": "M.services",
+        "text": "{V || ''}"
+    },
+    "bv552x": {
+        "TYPE": "span",
+        "PARENT": "b3ns9x",
+        "bid": "bv552x",
+        "FINDEX": "a1",
+        "react-tag": "td",
+        "class": "border border-collapse"
+    },
+    "b67ild": {
+        "TYPE": "prop",
+        "PARENT": "bv552x",
+        "bid": "b67ild",
+        "FINDEX": "a0",
+        "bro:type": "image",
+        "bro:is-many": "false",
+        "name": "image",
+        "class": "flex flex-col  w-full gap-6 "
+    },
+    "bpxhw8": {
+        "TYPE": "div",
+        "PARENT": "b67ild",
+        "bid": "bpxhw8",
+        "FINDEX": "a0",
+        "name": "image",
+        "style": "background-image: url(${M.image?.url})",
+        "class": "w-32 h-32  flex flex-shrink-0 bg-no-repeat bg-gray-200 bg-center bg-cover rounded-md"
+    },
+    "bheddn": {
+        "TYPE": "span",
+        "PARENT": "b3ns9x",
+        "bid": "bheddn",
+        "FINDEX": "a2",
+        "react-tag": "td",
+        "class": "border border-collapse"
+    },
+    "b8zsty": {
+        "TYPE": "prop",
+        "PARENT": "bheddn",
+        "bid": "b8zsty",
+        "FINDEX": "a0",
+        "bro:type": "text",
+        "bro:is-many": "false",
+        "name": "name",
+        "class": "flex flex-col  w-full gap-6 "
+    },
+    "bvr4v3": {
+        "TYPE": "span",
+        "PARENT": "b8zsty",
+        "bid": "bvr4v3",
+        "FINDEX": "a0",
+        "text": "{M.name || ''}"
+    },
+    "bv6ew0": {
+        "TYPE": "span",
+        "PARENT": "b3ns9x",
+        "bid": "bv6ew0",
+        "FINDEX": "a3",
+        "react-tag": "td",
+        "class": "border border-collapse"
+    },
+    "b15b9f": {
+        "TYPE": "prop",
+        "PARENT": "bv6ew0",
+        "bid": "b15b9f",
+        "FINDEX": "a0",
+        "bro:type": "serial",
+        "bro:is-many": "false",
+        "name": "id",
+        "class": "flex flex-col  w-full gap-6 "
+    },
+    "b3mgcq": {
+        "TYPE": "span",
+        "PARENT": "b15b9f",
+        "bid": "b3mgcq",
+        "FINDEX": "a0",
+        "text": "{M.id || ''}"
+    },
+    "bvhqnw": {
+        "TYPE": "div",
+        "PARENT": "start",
+        "bid": "bvhqnw",
+        "FINDEX": "aB",
+        "class": "max-w-4xl mx-auto bg-white rounded-lg overflow-hidden"
+    },
+    "bfvuvo": {
+        "TYPE": "div",
+        "PARENT": "bvhqnw",
+        "bid": "bfvuvo",
+        "FINDEX": "a0",
+        "class": "p-6 border-b border-gray-200"
+    },
+    "bvkdx3": {
+        "TYPE": "h1",
+        "PARENT": "bfvuvo",
+        "bid": "bvkdx3",
+        "FINDEX": "a0",
+        "class": "text-xl font-semibold text-gray-800",
+        "text": "Analytics Overview"
+    },
+    "bycooe": {
+        "TYPE": "p",
+        "PARENT": "bfvuvo",
+        "bid": "bycooe",
+        "FINDEX": "a1",
+        "class": "text-sm text-gray-500",
+        "text": "Last updated: Jan 6, 2025"
+    },
+    "b0oan1": {
+        "TYPE": "div",
+        "PARENT": "bvhqnw",
+        "bid": "b0oan1",
+        "FINDEX": "a1",
+        "class": "flex space-x-4 p-4 border-b border-gray-200"
+    },
+    "b18d0u": {
+        "TYPE": "button",
+        "PARENT": "b0oan1",
+        "bid": "b18d0u",
+        "FINDEX": "a0",
+        "class": "text-sm font-medium text-gray-800 border-b-2 border-blue-500 pb-2",
+        "text": "Overview"
+    },
+    "ba71jd": {
+        "TYPE": "button",
+        "PARENT": "b0oan1",
+        "bid": "ba71jd",
+        "FINDEX": "a1",
+        "class": "text-sm font-medium text-gray-500 hover:text-gray-800",
+        "text": "Traffic"
+    },
+    "bhbx2h": {
+        "TYPE": "button",
+        "PARENT": "b0oan1",
+        "bid": "bhbx2h",
+        "FINDEX": "a2",
+        "class": "text-sm font-medium text-gray-500 hover:text-gray-800",
+        "text": "Revenue"
+    },
+    "brq67g": {
+        "TYPE": "div",
+        "PARENT": "bvhqnw",
+        "bid": "brq67g",
+        "FINDEX": "a2",
+        "class": "p-6"
+    },
+    "bqyyct": {
+        "TYPE": "div",
+        "PARENT": "brq67g",
+        "bid": "bqyyct",
+        "FINDEX": "a0",
+        "class": "mb-6"
+    },
+    "bzva7r": {
+        "TYPE": "h2",
+        "PARENT": "bqyyct",
+        "bid": "bzva7r",
+        "FINDEX": "a0",
+        "class": "text-lg font-medium text-gray-700 mb-4",
+        "text": "Traffic Sources"
+    },
+    "beke7f": {
+        "TYPE": "div",
+        "PARENT": "bqyyct",
+        "bid": "beke7f",
+        "FINDEX": "a1",
+        "class": "bg-gray-50 rounded-lg shadow-sm p-6"
+    },
+    "b3sdps": {
+        "TYPE": "div",
+        "PARENT": "beke7f",
+        "bid": "b3sdps",
+        "FINDEX": "a0",
+        "class": "w-full h-48 bg-blue-100 rounded-md flex items-center justify-center"
+    },
+    "bpn0ja": {
+        "TYPE": "p",
+        "PARENT": "b3sdps",
+        "bid": "bpn0ja",
+        "FINDEX": "a0",
+        "class": "text-gray-500",
+        "text": "[Placeholder for Chart]"
+    },
+    "bpd872": {
+        "TYPE": "div",
+        "PARENT": "brq67g",
+        "bid": "bpd872",
+        "FINDEX": "a1"
+    },
+    "bbbxlr": {
+        "TYPE": "h2",
+        "PARENT": "bpd872",
+        "bid": "bbbxlr",
+        "FINDEX": "a0",
+        "class": "text-lg font-medium text-gray-700 mb-4",
+        "text": "Top Pages"
+    },
+    "bdp5kn": {
+        "TYPE": "div",
+        "PARENT": "bpd872",
+        "bid": "bdp5kn",
+        "FINDEX": "a1",
+        "class": "overflow-x-auto bg-gray-50 rounded-lg shadow-sm"
+    },
+    "b0smrf": {
+        "TYPE": "table",
+        "PARENT": "bdp5kn",
+        "bid": "b0smrf",
+        "FINDEX": "a0",
+        "class": "w-full text-sm text-left text-gray-700"
+    },
+    "bk0jrd": {
+        "TYPE": "thead",
+        "PARENT": "b0smrf",
+        "bid": "bk0jrd",
+        "FINDEX": "a0",
+        "class": "bg-gray-100 border-b"
+    },
+    "bspu4o": {
+        "TYPE": "tr",
+        "PARENT": "bk0jrd",
+        "bid": "bspu4o",
+        "FINDEX": "a0"
+    },
+    "bwxobf": {
+        "TYPE": "th",
+        "PARENT": "bspu4o",
+        "bid": "bwxobf",
+        "FINDEX": "a0",
+        "class": "py-3 px-4",
+        "text": "Page"
+    },
+    "br6g06": {
+        "TYPE": "th",
+        "PARENT": "bspu4o",
+        "bid": "br6g06",
+        "FINDEX": "a1",
+        "class": "py-3 px-4",
+        "text": "Views"
+    },
+    "byu9uf": {
+        "TYPE": "th",
+        "PARENT": "bspu4o",
+        "bid": "byu9uf",
+        "FINDEX": "a2",
+        "class": "py-3 px-4",
+        "text": "Bounce Rate"
+    },
+    "br52kb": {
+        "TYPE": "th",
+        "PARENT": "bspu4o",
+        "bid": "br52kb",
+        "FINDEX": "a3",
+        "class": "py-3 px-4",
+        "text": "Avg. Session"
+    },
+    "bmgt29": {
+        "TYPE": "tbody",
+        "PARENT": "b0smrf",
+        "bid": "bmgt29",
+        "FINDEX": "a1"
+    },
+    "braahg": {
+        "TYPE": "tr",
+        "PARENT": "bmgt29",
+        "bid": "braahg",
+        "FINDEX": "a0",
+        "class": "border-b hover:bg-gray-100"
+    },
+    "b65fay": {
+        "TYPE": "td",
+        "PARENT": "braahg",
+        "bid": "b65fay",
+        "FINDEX": "a0",
+        "class": "py-3 px-4",
+        "text": "/home"
+    },
+    "btbped": {
+        "TYPE": "td",
+        "PARENT": "braahg",
+        "bid": "btbped",
+        "FINDEX": "a1",
+        "class": "py-3 px-4",
+        "text": "4,678"
+    },
+    "bc11au": {
+        "TYPE": "td",
+        "PARENT": "braahg",
+        "bid": "bc11au",
+        "FINDEX": "a2",
+        "class": "py-3 px-4",
+        "text": "45%"
+    },
+    "bs7d8p": {
+        "TYPE": "td",
+        "PARENT": "braahg",
+        "bid": "bs7d8p",
+        "FINDEX": "a3",
+        "class": "py-3 px-4",
+        "text": "2m 34s"
+    },
+    "betjs9": {
+        "TYPE": "tr",
+        "PARENT": "bmgt29",
+        "bid": "betjs9",
+        "FINDEX": "a1",
+        "class": "border-b hover:bg-gray-100"
+    },
+    "bwfhcl": {
+        "TYPE": "td",
+        "PARENT": "betjs9",
+        "bid": "bwfhcl",
+        "FINDEX": "a0",
+        "class": "py-3 px-4",
+        "text": "/products"
+    },
+    "bdid7i": {
+        "TYPE": "td",
+        "PARENT": "betjs9",
+        "bid": "bdid7i",
+        "FINDEX": "a1",
+        "class": "py-3 px-4",
+        "text": "3,204"
+    },
+    "buieew": {
+        "TYPE": "td",
+        "PARENT": "betjs9",
+        "bid": "buieew",
+        "FINDEX": "a2",
+        "class": "py-3 px-4",
+        "text": "52%"
+    },
+    "b6zf5y": {
+        "TYPE": "td",
+        "PARENT": "betjs9",
+        "bid": "b6zf5y",
+        "FINDEX": "a3",
+        "class": "py-3 px-4",
+        "text": "1m 45s"
+    },
+    "bcp0i9": {
+        "TYPE": "tr",
+        "PARENT": "bmgt29",
+        "bid": "bcp0i9",
+        "FINDEX": "a2",
+        "class": "border-b hover:bg-gray-100"
+    },
+    "bwva4w": {
+        "TYPE": "td",
+        "PARENT": "bcp0i9",
+        "bid": "bwva4w",
+        "FINDEX": "a0",
+        "class": "py-3 px-4",
+        "text": "/blog"
+    },
+    "bcmpj8": {
+        "TYPE": "td",
+        "PARENT": "bcp0i9",
+        "bid": "bcmpj8",
+        "FINDEX": "a1",
+        "class": "py-3 px-4",
+        "text": "2,890"
+    },
+    "by0ndg": {
+        "TYPE": "td",
+        "PARENT": "bcp0i9",
+        "bid": "by0ndg",
+        "FINDEX": "a2",
+        "class": "py-3 px-4",
+        "text": "38%"
+    },
+    "b3wuhy": {
+        "TYPE": "td",
+        "PARENT": "bcp0i9",
+        "bid": "b3wuhy",
+        "FINDEX": "a3",
+        "class": "py-3 px-4",
+        "text": "3m 12s"
+    },
+    "bhxn72": {
+        "TYPE": "div",
+        "PARENT": "start",
+        "bid": "bhxn72",
+        "FINDEX": "aC",
+        "class": "flex-1 p-6 space-y-6"
+    },
+    "b5w840": {
+        "TYPE": "header",
+        "PARENT": "bhxn72",
+        "bid": "b5w840",
+        "FINDEX": "a0",
+        "class": "flex justify-between items-center"
+    },
+    "bdh0tl": {
+        "TYPE": "h1",
+        "PARENT": "b5w840",
+        "bid": "bdh0tl",
+        "FINDEX": "a0",
+        "class": "text-2xl font-semibold text-gray-800",
+        "text": "Welcome Back!"
+    },
+    "b63c9r": {
+        "TYPE": "div",
+        "PARENT": "b5w840",
+        "bid": "b63c9r",
+        "FINDEX": "a1",
+        "class": "flex items-center space-x-4"
+    },
+    "b12xbu": {
+        "TYPE": "input",
+        "PARENT": "b63c9r",
+        "bid": "b12xbu",
+        "FINDEX": "a0",
+        "type": "text",
+        "placeholder": "Search...",
+        "class": "w-48 px-4 py-2 rounded-lg border border-gray-300"
+    },
+    "bzlsur": {
+        "TYPE": "img",
+        "PARENT": "b63c9r",
+        "bid": "bzlsur",
+        "FINDEX": "a1",
+        "src": "https://via.placeholder.com/40",
+        "alt": "User Avatar",
+        "class": "w-10 h-10 rounded-full"
+    },
+    "bgnz6j": {
+        "TYPE": "section",
+        "PARENT": "bhxn72",
+        "bid": "bgnz6j",
+        "FINDEX": "a1",
+        "class": "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
+    },
+    "buaaia": {
+        "TYPE": "div",
+        "PARENT": "bgnz6j",
+        "bid": "buaaia",
+        "FINDEX": "a0",
+        "class": "bg-white p-6 rounded-lg shadow"
+    },
+    "bbguim": {
+        "TYPE": "h2",
+        "PARENT": "buaaia",
+        "bid": "bbguim",
+        "FINDEX": "a0",
+        "class": "text-lg font-semibold text-gray-700",
+        "text": "Total Revenue"
+    },
+    "bqt1ua": {
+        "TYPE": "p",
+        "PARENT": "buaaia",
+        "bid": "bqt1ua",
+        "FINDEX": "a1",
+        "class": "text-3xl font-bold text-gray-800",
+        "text": "$24,580"
+    },
+    "b79i3c": {
+        "TYPE": "p",
+        "PARENT": "buaaia",
+        "bid": "b79i3c",
+        "FINDEX": "a2",
+        "class": "text-sm text-green-600 mt-2",
+        "text": "+12% since last month"
+    },
+    "bctz9o": {
+        "TYPE": "div",
+        "PARENT": "bgnz6j",
+        "bid": "bctz9o",
+        "FINDEX": "a1",
+        "class": "bg-white p-6 rounded-lg shadow"
+    },
+    "bxtf78": {
+        "TYPE": "h2",
+        "PARENT": "bctz9o",
+        "bid": "bxtf78",
+        "FINDEX": "a0",
+        "class": "text-lg font-semibold text-gray-700",
+        "text": "New Users"
+    },
+    "bdg6xk": {
+        "TYPE": "p",
+        "PARENT": "bctz9o",
+        "bid": "bdg6xk",
+        "FINDEX": "a1",
+        "class": "text-3xl font-bold text-gray-800",
+        "text": "1,254"
+    },
+    "bhjvsa": {
+        "TYPE": "p",
+        "PARENT": "bctz9o",
+        "bid": "bhjvsa",
+        "FINDEX": "a2",
+        "class": "text-sm text-red-600 mt-2",
+        "text": "-5% since last week"
+    },
+    "b0rahn": {
+        "TYPE": "div",
+        "PARENT": "bgnz6j",
+        "bid": "b0rahn",
+        "FINDEX": "a2",
+        "class": "bg-white p-6 rounded-lg shadow"
+    },
+    "bl680d": {
+        "TYPE": "h2",
+        "PARENT": "b0rahn",
+        "bid": "bl680d",
+        "FINDEX": "a0",
+        "class": "text-lg font-semibold text-gray-700",
+        "text": "Active Projects"
+    },
+    "bag3br": {
+        "TYPE": "p",
+        "PARENT": "b0rahn",
+        "bid": "bag3br",
+        "FINDEX": "a1",
+        "class": "text-3xl font-bold text-gray-800",
+        "text": "34"
+    },
+    "bltgvv": {
+        "TYPE": "p",
+        "PARENT": "b0rahn",
+        "bid": "bltgvv",
+        "FINDEX": "a2",
+        "class": "text-sm text-green-600 mt-2",
+        "text": "+8% this quarter"
+    },
+    "bvqf1o": {
+        "TYPE": "div",
+        "PARENT": "bhxn72",
+        "bid": "bvqf1o",
+        "FINDEX": "a2",
+        "class": "grid grid-cols-1 lg:grid-cols-3 gap-6"
+    },
+    "b3xpcn": {
+        "TYPE": "div",
+        "PARENT": "bvqf1o",
+        "bid": "b3xpcn",
+        "FINDEX": "a0",
+        "class": "lg:col-span-2 bg-white p-6 rounded-lg shadow-[0px_1px_3px_0px_#0000001a]"
+    },
+    "bmfgzn": {
+        "TYPE": "h2",
+        "PARENT": "b3xpcn",
+        "bid": "bmfgzn",
+        "FINDEX": "a0",
+        "class": "text-lg font-semibold text-gray-700 mb-4",
+        "text": "Traffic Analysis"
+    },
+    "bq6ftl": {
+        "TYPE": "div",
+        "PARENT": "b3xpcn",
+        "bid": "bq6ftl",
+        "FINDEX": "a1",
+        "class": "w-full h-64 bg-blue-100 rounded flex items-center justify-center"
+    },
+    "b8ch6o": {
+        "TYPE": "p",
+        "PARENT": "bq6ftl",
+        "bid": "b8ch6o",
+        "FINDEX": "a0",
+        "class": "text-gray-500",
+        "text": "[Placeholder for Chart]"
+    },
+    "bx8452": {
+        "TYPE": "div",
+        "PARENT": "bvqf1o",
+        "bid": "bx8452",
+        "FINDEX": "a1",
+        "class": "bg-white p-6 rounded-lg shadow-[0px_1px_3px_0px_#0000001a]"
+    },
+    "bs0piz": {
+        "TYPE": "h2",
+        "PARENT": "bx8452",
+        "bid": "bs0piz",
+        "FINDEX": "a0",
+        "class": "text-lg font-semibold text-gray-700 mb-4",
+        "text": "Recent Activities"
+    },
+    "bg5v51": {
+        "TYPE": "ul",
+        "PARENT": "bx8452",
+        "bid": "bg5v51",
+        "FINDEX": "a1",
+        "class": "space-y-4"
+    },
+    "bt9js2": {
+        "TYPE": "li",
+        "PARENT": "bg5v51",
+        "bid": "bt9js2",
+        "FINDEX": "a0",
+        "class": "flex items-center space-x-4"
+    },
+    "bic56b": {
+        "TYPE": "div",
+        "PARENT": "bt9js2",
+        "bid": "bic56b",
+        "FINDEX": "a0",
+        "class": "w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center"
+    },
+    "btl9ox": {
+        "TYPE": "span",
+        "PARENT": "bic56b",
+        "bid": "btl9ox",
+        "FINDEX": "a0",
+        "class": "text-blue-600 font-semibold",
+        "text": "A"
+    },
+    "b7etpl": {
+        "TYPE": "div",
+        "PARENT": "bt9js2",
+        "bid": "b7etpl",
+        "FINDEX": "a1"
+    },
+    "bb9azn": {
+        "TYPE": "p",
+        "PARENT": "b7etpl",
+        "bid": "bb9azn",
+        "FINDEX": "a0",
+        "class": "text-sm font-medium text-gray-800",
+        "text": "Alice added a new task"
+    },
+    "bk7urh": {
+        "TYPE": "p",
+        "PARENT": "b7etpl",
+        "bid": "bk7urh",
+        "FINDEX": "a1",
+        "class": "text-xs text-gray-500",
+        "text": "5 mins ago"
+    },
+    "buhtik": {
+        "TYPE": "li",
+        "PARENT": "bg5v51",
+        "bid": "buhtik",
+        "FINDEX": "a1",
+        "class": "flex items-center space-x-4"
+    },
+    "bqlmen": {
+        "TYPE": "div",
+        "PARENT": "buhtik",
+        "bid": "bqlmen",
+        "FINDEX": "a0",
+        "class": "w-10 h-10 bg-green-100 rounded-full flex items-center justify-center"
+    },
+    "blvvpq": {
+        "TYPE": "span",
+        "PARENT": "bqlmen",
+        "bid": "blvvpq",
+        "FINDEX": "a0",
+        "class": "text-green-600 font-semibold",
+        "text": "J"
+    },
+    "bw23nl": {
+        "TYPE": "div",
+        "PARENT": "buhtik",
+        "bid": "bw23nl",
+        "FINDEX": "a1"
+    },
+    "br4d4w": {
+        "TYPE": "p",
+        "PARENT": "bw23nl",
+        "bid": "br4d4w",
+        "FINDEX": "a0",
+        "class": "text-sm font-medium text-gray-800",
+        "text": "John completed a project"
+    },
+    "best99": {
+        "TYPE": "p",
+        "PARENT": "bw23nl",
+        "bid": "best99",
+        "FINDEX": "a1",
+        "class": "text-xs text-gray-500",
+        "text": "1 hour ago"
+    },
+    "b6irin": {
+        "TYPE": "li",
+        "PARENT": "bg5v51",
+        "bid": "b6irin",
+        "FINDEX": "a2",
+        "class": "flex items-center space-x-4"
+    },
+    "bw3zbd": {
+        "TYPE": "div",
+        "PARENT": "b6irin",
+        "bid": "bw3zbd",
+        "FINDEX": "a0",
+        "class": "w-10 h-10 bg-red-100 rounded-full flex items-center justify-center"
+    },
+    "biuq66": {
+        "TYPE": "span",
+        "PARENT": "bw3zbd",
+        "bid": "biuq66",
+        "FINDEX": "a0",
+        "class": "text-red-600 font-semibold",
+        "text": "K"
+    },
+    "bclbvo": {
+        "TYPE": "div",
+        "PARENT": "b6irin",
+        "bid": "bclbvo",
+        "FINDEX": "a1"
+    },
+    "bj3u3y": {
+        "TYPE": "p",
+        "PARENT": "bclbvo",
+        "bid": "bj3u3y",
+        "FINDEX": "a0",
+        "class": "text-sm font-medium text-gray-800",
+        "text": "Kevin removed a file"
+    },
+    "bejimd": {
+        "TYPE": "p",
+        "PARENT": "bclbvo",
+        "bid": "bejimd",
+        "FINDEX": "a1",
+        "class": "text-xs text-gray-500",
+        "text": "2 hours ago"
+    },
+    "bcat3r": {
+        "TYPE": "div",
+        "PARENT": "start",
+        "bid": "bcat3r",
+        "FINDEX": "aD",
+        "class": "new-div w-full flex items-center justify-center"
+    },
+    "be51tb": {
+        "TYPE": "div",
+        "PARENT": "bv4avm",
+        "bid": "be51tb",
+        "FINDEX": "a0",
+        "text": "Slide 1",
+        "class": "text-center"
+    },
+    "bv4avm": {
+        "TYPE": "div",
+        "PARENT": "bkzz8z",
+        "bid": "bv4avm",
+        "FINDEX": "a0",
+        "class": "h-full w-full flex items-center justify-center"
+    },
+    "bkzz8z": {
+        "TYPE": "div",
+        "PARENT": "bsv7yw",
+        "bid": "bkzz8z",
+        "FINDEX": "a0",
+        "class": "swiper-slide flex flex-row items-center justify-center"
+    },
+    "bnzyw3": {
+        "TYPE": "div",
+        "PARENT": "bljs8e",
+        "bid": "bnzyw3",
+        "FINDEX": "a0",
+        "text": "Slide 2",
+        "class": "text-center"
+    },
+    "bljs8e": {
+        "TYPE": "div",
+        "PARENT": "bsteaw",
+        "bid": "bljs8e",
+        "FINDEX": "a0",
+        "class": "h-full w-full flex items-center justify-center"
+    },
+    "bsteaw": {
+        "TYPE": "div",
+        "PARENT": "bsv7yw",
+        "bid": "bsteaw",
+        "FINDEX": "a1",
+        "class": "swiper-slide flex flex-row items-center justify-center"
+    },
+    "bxmf6x": {
+        "TYPE": "div",
+        "PARENT": "bt08ie",
+        "bid": "bxmf6x",
+        "FINDEX": "a0",
+        "text": "Slide 3",
+        "class": "text-center"
+    },
+    "bt08ie": {
+        "TYPE": "div",
+        "PARENT": "bejek3",
+        "bid": "bt08ie",
+        "FINDEX": "a0",
+        "class": "h-full w-full flex items-center justify-center"
+    },
+    "bejek3": {
+        "TYPE": "div",
+        "PARENT": "bsv7yw",
+        "bid": "bejek3",
+        "FINDEX": "a2",
+        "class": "swiper-slide flex flex-row items-center justify-center"
+    },
+    "bj9wzw": {
+        "TYPE": "div",
+        "PARENT": "bwg7jm",
+        "bid": "bj9wzw",
+        "FINDEX": "a0",
+        "text": "Slide 4",
+        "class": "text-center"
+    },
+    "bwg7jm": {
+        "TYPE": "div",
+        "PARENT": "b7ng9g",
+        "bid": "bwg7jm",
+        "FINDEX": "a0",
+        "class": "h-full w-full flex items-center justify-center"
+    },
+    "b7ng9g": {
+        "TYPE": "div",
+        "PARENT": "bsv7yw",
+        "bid": "b7ng9g",
+        "FINDEX": "a3",
+        "class": "swiper-slide flex flex-row items-center justify-center"
+    },
+    "b5zip4": {
+        "TYPE": "div",
+        "PARENT": "bf0m0f",
+        "bid": "b5zip4",
+        "FINDEX": "a0",
+        "text": "Slide 5",
+        "class": "text-center"
+    },
+    "bf0m0f": {
+        "TYPE": "div",
+        "PARENT": "bgz9ru",
+        "bid": "bf0m0f",
+        "FINDEX": "a0",
+        "class": "h-full w-full flex items-center justify-center"
+    },
+    "bgz9ru": {
+        "TYPE": "div",
+        "PARENT": "bsv7yw",
+        "bid": "bgz9ru",
+        "FINDEX": "a4",
+        "class": "swiper-slide flex flex-row items-center justify-center"
+    },
+    "buf1vl": {
+        "TYPE": "div",
+        "PARENT": "bca1ch",
+        "bid": "buf1vl",
+        "FINDEX": "a0",
+        "text": "Slide 6",
+        "class": "text-center"
+    },
+    "bca1ch": {
+        "TYPE": "div",
+        "PARENT": "b3se53",
+        "bid": "bca1ch",
+        "FINDEX": "a0",
+        "class": "h-full w-full flex items-center justify-center"
+    },
+    "b3se53": {
+        "TYPE": "div",
+        "PARENT": "bsv7yw",
+        "bid": "b3se53",
+        "FINDEX": "a5",
+        "class": "swiper-slide flex flex-row items-center justify-center"
+    },
+    "ba5r2j": {
+        "TYPE": "div",
+        "PARENT": "bfoc8l",
+        "bid": "ba5r2j",
+        "FINDEX": "a0",
+        "text": "Slide 7",
+        "class": "text-center"
+    },
+    "bfoc8l": {
+        "TYPE": "div",
+        "PARENT": "bj7mkx",
+        "bid": "bfoc8l",
+        "FINDEX": "a0",
+        "class": "h-full w-full flex items-center justify-center"
+    },
+    "bj7mkx": {
+        "TYPE": "div",
+        "PARENT": "bsv7yw",
+        "bid": "bj7mkx",
+        "FINDEX": "a6",
+        "class": "swiper-slide flex flex-row items-center justify-center"
+    },
+    "bxp745": {
+        "TYPE": "div",
+        "PARENT": "budzmj",
+        "bid": "bxp745",
+        "FINDEX": "a0",
+        "text": "Slide 8",
+        "class": "text-center"
+    },
+    "budzmj": {
+        "TYPE": "div",
+        "PARENT": "bas34u",
+        "bid": "budzmj",
+        "FINDEX": "a0",
+        "class": "h-full w-full flex items-center justify-center"
+    },
+    "bas34u": {
+        "TYPE": "div",
+        "PARENT": "bsv7yw",
+        "bid": "bas34u",
+        "FINDEX": "a7",
+        "class": "swiper-slide flex flex-row items-center justify-center"
+    },
+    "b0ym4e": {
+        "TYPE": "div",
+        "PARENT": "bhmff1",
+        "bid": "b0ym4e",
+        "FINDEX": "a0",
+        "text": "Slide 9",
+        "class": "text-center"
+    },
+    "bhmff1": {
+        "TYPE": "div",
+        "PARENT": "bb94h4",
+        "bid": "bhmff1",
+        "FINDEX": "a0",
+        "class": "h-full w-full flex items-center justify-center"
+    },
+    "bb94h4": {
+        "TYPE": "div",
+        "PARENT": "bsv7yw",
+        "bid": "bb94h4",
+        "FINDEX": "a8",
+        "class": "swiper-slide flex flex-row items-center justify-center"
+    },
+    "bsv7yw": {
+        "TYPE": "div",
+        "PARENT": "b9aftd",
+        "bid": "bsv7yw",
+        "FINDEX": "a0",
+        "class": "swiper-wrapper"
+    },
+    "bi67g6": {
+        "TYPE": "div",
+        "PARENT": "b9aftd",
+        "bid": "bi67g6",
+        "FINDEX": "a1",
+        "class": "swiper-pagination"
+    },
+    "bm265z": {
+        "TYPE": "div",
+        "PARENT": "b9aftd",
+        "bid": "bm265z",
+        "FINDEX": "a2",
+        "class": "swiper-button-prev"
+    },
+    "b7rx8n": {
+        "TYPE": "div",
+        "PARENT": "b9aftd",
+        "bid": "b7rx8n",
+        "FINDEX": "a3",
+        "class": "swiper-button-next"
+    },
+    "b9aftd": {
+        "TYPE": "div",
+        "PARENT": "b3mlxf",
+        "bid": "b9aftd",
+        "FINDEX": "a0",
+        "class": "swiper w-full h-[400px]"
+    },
+    "b3mlxf": {
+        "TYPE": "model",
+        "PARENT": "bcat3r",
+        "bid": "b3mlxf",
+        "FINDEX": "a0",
+        "mid": "vjnou",
+        "name": "user",
+        "op": "get_many",
+        "class": "w-full",
+        "comp-temp": "swiper-modern"
+    },
+    "bw1d7o": {
+        "TYPE": "div",
+        "PARENT": "page_69s1n",
+        "bid": "bw1d7o",
+        "FINDEX": "a0",
+        "class": "new-div w-full flex items-center justify-center"
+    },
+    "bscii3": {
+        "TYPE": "div",
+        "PARENT": "bw1d7o",
+        "bid": "bscii3",
+        "FINDEX": "a0",
+        "name": "navbar",
+        "class": "w-full flex items-center rounded-[16px] bg-white/90 shadow-2xl justify-between backdrop-blur-sm"
+    },
+    "br7c9k": {
+        "TYPE": "div",
+        "PARENT": "bscii3",
+        "bid": "br7c9k",
+        "FINDEX": "a0",
+        "class": "w-full rounded-[16px] px-5 py-4 flex items-center justify-center hover:bg-[--tertiary-100] cursor-pointer gap-1 text-[#616161] flex-col"
+    },
+    "b2jssc": {
+        "TYPE": "iconify-icon",
+        "PARENT": "br7c9k",
+        "bid": "b2jssc",
+        "FINDEX": "a0",
+        "icon": "lucide:house",
+        "width": "64",
+        "height": "64",
+        "class": ""
+    },
+    "bydmez": {
+        "TYPE": "div",
+        "PARENT": "br7c9k",
+        "bid": "bydmez",
+        "FINDEX": "a1",
+        "class": "w-full flex items-center justify-center display-font text-[12px]",
+        "text": "Home"
+    },
+    "bezc8y": {
+        "TYPE": "div",
+        "PARENT": "bscii3",
+        "bid": "bezc8y",
+        "FINDEX": "a1",
+        "class": "w-full rounded-[16px] px-5 py-4 flex items-center justify-center hover:bg-[--tertiary-100] cursor-pointer gap-1 text-[#616161] flex-col"
+    },
+    "bt549p": {
+        "TYPE": "iconify-icon",
+        "PARENT": "bezc8y",
+        "bid": "bt549p",
+        "FINDEX": "a0",
+        "icon": "lucide:heart",
+        "width": "64",
+        "height": "64"
+    },
+    "bzk7zr": {
+        "TYPE": "div",
+        "PARENT": "bezc8y",
+        "bid": "bzk7zr",
+        "FINDEX": "a1",
+        "class": "w-full flex items-center justify-center display-font text-[12px]",
+        "text": "Favorites"
+    },
+    "bru670": {
+        "TYPE": "div",
+        "PARENT": "bscii3",
+        "bid": "bru670",
+        "FINDEX": "a2",
+        "class": "w-full rounded-[16px] px-5 py-4 flex items-center justify-center hover:bg-[--tertiary-100] cursor-pointer gap-1 text-[#616161] flex-col"
+    },
+    "b10ubs": {
+        "TYPE": "iconify-icon",
+        "PARENT": "bru670",
+        "bid": "b10ubs",
+        "FINDEX": "a0",
+        "icon": "lucide:binoculars",
+        "width": "64",
+        "height": "64"
+    },
+    "by3uin": {
+        "TYPE": "div",
+        "PARENT": "bru670",
+        "bid": "by3uin",
+        "FINDEX": "a1",
+        "class": "w-full flex items-center justify-center display-font text-[12px]",
+        "text": "Explore"
+    },
+    "bmvjmu": {
+        "TYPE": "div",
+        "PARENT": "bscii3",
+        "bid": "bmvjmu",
+        "FINDEX": "a3",
+        "class": "w-full rounded-[16px] px-5 py-4 flex items-center justify-center hover:bg-[--tertiary-100] cursor-pointer gap-1 text-[#616161] flex-col"
+    },
+    "b3bwb7": {
+        "TYPE": "iconify-icon",
+        "PARENT": "bmvjmu",
+        "bid": "b3bwb7",
+        "FINDEX": "a0",
+        "icon": "lucide:user",
+        "width": "64",
+        "height": "64"
+    },
+    "b8v0sv": {
+        "TYPE": "div",
+        "PARENT": "bmvjmu",
+        "bid": "b8v0sv",
+        "FINDEX": "a1",
+        "class": "w-full flex items-center justify-center display-font text-[12px]",
+        "text": "Profile"
+    },
+    "b5wgzp": {
+        "text": "Slide 1",
+        "class": "text-center",
+        "bid": "b5wgzp",
+        "TYPE": "div",
+        "PARENT": "b00pnv",
+        "FINDEX": "a0"
+    },
+    "b00pnv": {
+        "class": "h-full w-full flex items-center justify-center",
+        "bid": "b00pnv",
+        "TYPE": "div",
+        "PARENT": "bbtcli",
+        "FINDEX": "a0"
+    },
+    "bbtcli": {
+        "class": "swiper-slide flex flex-row items-center justify-center",
+        "bid": "bbtcli",
+        "TYPE": "div",
+        "PARENT": "bt48lg",
+        "FINDEX": "a0"
+    },
+    "bsiu2e": {
+        "text": "Slide 2",
+        "class": "text-center",
+        "bid": "bsiu2e",
+        "TYPE": "div",
+        "PARENT": "bdmf73",
+        "FINDEX": "a0"
+    },
+    "bdmf73": {
+        "class": "h-full w-full flex items-center justify-center",
+        "bid": "bdmf73",
+        "TYPE": "div",
+        "PARENT": "bco25m",
+        "FINDEX": "a0"
+    },
+    "bco25m": {
+        "class": "swiper-slide flex flex-row items-center justify-center",
+        "bid": "bco25m",
+        "TYPE": "div",
+        "PARENT": "bt48lg",
+        "FINDEX": "a1"
+    },
+    "bent0e": {
+        "text": "Slide 3",
+        "class": "text-center",
+        "bid": "bent0e",
+        "TYPE": "div",
+        "PARENT": "bkzdwk",
+        "FINDEX": "a0"
+    },
+    "bkzdwk": {
+        "class": "h-full w-full flex items-center justify-center",
+        "bid": "bkzdwk",
+        "TYPE": "div",
+        "PARENT": "bkq34c",
+        "FINDEX": "a0"
+    },
+    "bkq34c": {
+        "class": "swiper-slide flex flex-row items-center justify-center",
+        "bid": "bkq34c",
+        "TYPE": "div",
+        "PARENT": "bt48lg",
+        "FINDEX": "a2"
+    },
+    "bt48lg": {
+        "class": "swiper-wrapper",
+        "bid": "bt48lg",
+        "TYPE": "div",
+        "PARENT": "b4slw9",
+        "FINDEX": "a0"
+    },
+    "b49ra5": {
+        "class": "swiper-scrollbar h-full w-2 bg-[--primary]",
+        "bid": "b49ra5",
+        "TYPE": "div",
+        "PARENT": "b4slw9",
+        "FINDEX": "a1"
+    },
+    "bsonol": {
+        "class": "swiper-pagination",
+        "bid": "bsonol",
+        "TYPE": "div",
+        "PARENT": "b4slw9",
+        "FINDEX": "a2"
+    },
+    "b4slw9": {
+        "ref": "{ref}",
+        "class": "swiper w-full h-[400px]",
+        "bid": "b4slw9",
+        "TYPE": "div",
+        "PARENT": "bxlua3",
+        "FINDEX": "a0"
+    },
+    "bxlua3": {
+        "mid": "vjnou",
+        "name": "user",
+        "op": "get_many",
+        "class": "w-full",
+        "comp-temp": "swiper-vertical-ref",
+        "bid": "bxlua3",
+        "TYPE": "model",
+        "PARENT": "page_69s1n",
+        "FINDEX": "a1"
+    },
+    "bcfk2l": {
+        "TYPE": "div",
+        "PARENT": "page_69s1n",
+        "bid": "bcfk2l",
+        "FINDEX": "a2",
+        "data": "[{id: 1, name: 'TAB1'}, {id: 2, name: 'TAB2'}, {id: 3, name: 'TAB3'}]",
+        "class": "p-2 border border-gray-300 rounded"
+    },
+    "bid6ml": {
+        "TYPE": "div",
+        "PARENT": "bcfk2l",
+        "bid": "bid6ml",
+        "FINDEX": "a0",
+        "class": "flex flex-col gap-2 items-center justify-center"
+    },
+    "bijqfq": {
+        "TYPE": "div",
+        "PARENT": "bid6ml",
+        "bid": "bijqfq",
+        "FINDEX": "a0",
+        "class": "flex flex-row relative"
+    },
+    "bznazr": {
+        "TYPE": "div",
+        "PARENT": "bijqfq",
+        "bid": "bznazr",
+        "FINDEX": "a0",
+        "map": "DATA",
+        "class": "w-[300px] overflow-x-hidden z-[2] p-2 bg-transparent"
+    },
+    "bxlbkz": {
+        "TYPE": "div",
+        "PARENT": "bznazr",
+        "bid": "bxlbkz",
+        "FINDEX": "a0",
+        "action": "select",
+        "class": "w-full b-sel:bg-[--secondary-50] cursor-pointer py-2 px-4 rounded shadow-lg rounded-full flex items-center justify-center",
+        "text": "{V.name}"
+    },
+    "btahx0": {
+        "TYPE": "motion.div",
+        "PARENT": "bijqfq",
+        "bid": "btahx0",
+        "FINDEX": "a1",
+        "class": "absolute left-0 top-0 bottom-0 rounded-full bg-[--info-300] w-[300px] z-[1]",
+        "initial": "{false}",
+        "animate": "{{x: DATA.findIndex(tab => B.is_selected({V: tab})) * 300}}",
+        "transition": "{{ type: 'spring', stiffness: 300, damping: 30 }}"
+    },
+    "b9ekeo": {
+        "TYPE": "div",
+        "PARENT": "bid6ml",
+        "bid": "b9ekeo",
+        "FINDEX": "a1",
+        "class": "border border-gray-300 rounded-xl p-4"
+    },
+    "b8mdee": {
+        "TYPE": "div",
+        "PARENT": "b9ekeo",
+        "bid": "b8mdee",
+        "FINDEX": "a0",
+        "map": "DATA"
+    },
+    "baty8a": {
+        "TYPE": "div",
+        "PARENT": "b8mdee",
+        "bid": "baty8a",
+        "FINDEX": "a0",
+        "condition": "B.is_selected({V, idx})"
+    },
+    "bqtp8i": {
+        "TYPE": "div",
+        "PARENT": "baty8a",
+        "bid": "bqtp8i",
+        "FINDEX": "a0",
+        "name": "TAB-CONT1",
+        "condition": "V.id === 1"
+    },
+    "bchaa4": {
+        "TYPE": "div",
+        "PARENT": "bqtp8i",
+        "bid": "bchaa4",
+        "FINDEX": "a0",
+        "text": "ONE: {V.name}"
+    },
+    "bac054": {
+        "TYPE": "div",
+        "PARENT": "baty8a",
+        "bid": "bac054",
+        "FINDEX": "a1",
+        "name": "TAB-CONT2",
+        "condition": "V.id === 2"
+    },
+    "bvqafs": {
+        "TYPE": "div",
+        "PARENT": "bac054",
+        "bid": "bvqafs",
+        "FINDEX": "a0",
+        "text": "TWO : {V.name}"
+    },
+    "bz4o4u": {
+        "TYPE": "div",
+        "PARENT": "baty8a",
+        "bid": "bz4o4u",
+        "FINDEX": "a2",
+        "name": "TAB-CONT3",
+        "condition": "V.id === 3"
+    },
+    "bo817i": {
+        "TYPE": "div",
+        "PARENT": "bz4o4u",
+        "bid": "bo817i",
+        "FINDEX": "a0",
+        "text": "THREE: {V.name}"
+    },
+    "bpfohy": {
+        "TYPE": "bro-modal",
+        "PARENT": "page_69s1n",
+        "bid": "bpfohy",
+        "FINDEX": "a3",
+        "class": ""
+    },
+    "bgt4rv": {
+        "TYPE": "div",
+        "PARENT": "bpfohy",
+        "bid": "bgt4rv",
+        "FINDEX": "a0",
+        "class": "flex items-center justify-center p-4 "
+    },
+    "bc6fs1": {
+        "TYPE": "div",
+        "PARENT": "bgt4rv",
+        "bid": "bc6fs1",
+        "FINDEX": "a0",
+        "class": "p-2 bg-[--primary-200] rounded cursor-pointer",
+        "text": "VIEW EMBED"
+    },
+    "bxn99e": {
+        "TYPE": "embed",
+        "PARENT": "bpfohy",
+        "bid": "bxn99e",
+        "FINDEX": "a1",
+        "src": "https://s28.q4cdn.com/392171258/files/doc_downloads/test.pdf",
+        "type": "application/pdf",
+        "width": "100%",
+        "height": "600px"
+    },
+    "page_oxb6n": {
+        "TYPE": "page",
+        "PARENT": "pages",
+        "bid": "page_oxb6n",
+        "FINDEX": "a2",
+        "name": "pageoxb6n",
+        "class": ""
+    },
+    "bsmp33": {
+        "TYPE": "div",
+        "PARENT": "page_oxb6n",
+        "bid": "bsmp33",
+        "FINDEX": "a0",
+        "class": ""
+    },
+    "b243xy": {
+        "TYPE": "div",
+        "PARENT": "start",
+        "bid": "b243xy",
+        "FINDEX": "a1V",
+        "class": "new-div w-full flex items-center justify-center"
+    },
+    "bvi5al": {
+        "TYPE": "model",
+        "PARENT": "b243xy",
+        "bid": "bvi5al",
+        "FINDEX": "a0",
+        "mid": "vjnou",
+        "name": "user",
+        "op": "get_selected_one",
+        "eid": "{M.id}",
+        "class": "w-full flex flex-col p-4 border rounded border-zinc-200 relative ",
+        "comp-temp": "selected_one"
+    },
+    "blavza": {
+        "TYPE": "div",
+        "PARENT": "bvi5al",
+        "bid": "blavza",
+        "FINDEX": "a0",
+        "name": "title",
+        "class": "text-2xl font-medium text-gray-600 text-left pb-6",
+        "text": "GET SELECTED ONE OF user"
+    },
+    "bspprr": {
+        "TYPE": "div",
+        "PARENT": "bvi5al",
+        "bid": "bspprr",
+        "FINDEX": "a1",
+        "name": "user-data",
+        "class": "flex flex-col gap-4",
+        "action": "select-one"
+    },
+    "bl5yub": {
+        "TYPE": "cont",
+        "PARENT": "bspprr",
+        "bid": "bl5yub",
+        "FINDEX": "a0",
+        "bro:is-many": "false",
+        "name": "CONT-email",
+        "class": "w-full"
+    },
+    "b1s3uc": {
+        "TYPE": "div",
+        "PARENT": "bl5yub",
+        "bid": "b1s3uc",
+        "FINDEX": "a0",
+        "class": "block text-gray-700 text-sm font-medium mb-2 capitalize",
+        "text": "email"
+    },
+    "bkn1nm": {
+        "TYPE": "prop",
+        "PARENT": "bl5yub",
+        "bid": "bkn1nm",
+        "FINDEX": "a1",
+        "bro:type": "email",
+        "bro:is-many": "false",
+        "name": "email",
+        "class": "flex flex-col  w-full gap-6 "
+    },
+    "b32b9w": {
+        "TYPE": "span",
+        "PARENT": "bkn1nm",
+        "bid": "b32b9w",
+        "FINDEX": "a0",
+        "text": "{M.email}"
+    },
+    "bnwvdo": {
+        "TYPE": "cont",
+        "PARENT": "bspprr",
+        "bid": "bnwvdo",
+        "FINDEX": "a1",
+        "bro:is-many": "false",
+        "name": "CONT-name",
+        "class": "w-full"
+    },
+    "b8v263": {
+        "TYPE": "div",
+        "PARENT": "bnwvdo",
+        "bid": "b8v263",
+        "FINDEX": "a0",
+        "class": "block text-gray-700 text-sm font-medium mb-2 capitalize",
+        "text": "name"
+    },
+    "bmxl4f": {
+        "TYPE": "prop",
+        "PARENT": "bnwvdo",
+        "bid": "bmxl4f",
+        "FINDEX": "a1",
+        "bro:type": "text",
+        "bro:is-many": "false",
+        "name": "name",
+        "class": "flex flex-col  w-full gap-6 "
+    },
+    "bv8jt4": {
+        "TYPE": "span",
+        "PARENT": "bmxl4f",
+        "bid": "bv8jt4",
+        "FINDEX": "a0",
+        "text": "{M.name || ''}"
+    },
+    "bl04cd": {
+        "TYPE": "cont",
+        "PARENT": "bspprr",
+        "bid": "bl04cd",
+        "FINDEX": "a2",
+        "bro:is-many": "true",
+        "name": "CONT-images",
+        "class": "w-full flex flex-col gap-2"
+    },
+    "b5qu57": {
+        "TYPE": "div",
+        "PARENT": "bl04cd",
+        "bid": "b5qu57",
+        "FINDEX": "a0",
+        "variant": "with-label",
+        "class": "block text-gray-700 text-sm font-medium mb-2 capitalize",
+        "text": "images"
+    },
+    "bi7msf": {
+        "TYPE": "prop",
+        "PARENT": "bl04cd",
+        "bid": "bi7msf",
+        "FINDEX": "a1",
+        "bro:type": "image",
+        "bro:is-many": "true",
+        "name": "images",
+        "class": "flex flex-col  w-full gap-6 "
+    },
+    "bf6lrg": {
+        "TYPE": "div",
+        "PARENT": "bi7msf",
+        "bid": "bf6lrg",
+        "FINDEX": "a0",
+        "name": "image",
+        "style": "background-image: url(${V?.v?.url})",
+        "class": "w-32 h-32  flex flex-shrink-0 bg-no-repeat bg-gray-200 bg-center bg-cover rounded-md"
+    },
+    "b0oozz": {
+        "TYPE": "div",
+        "PARENT": "bvi5al",
+        "bid": "b0oozz",
+        "FINDEX": "a2",
+        "class": "absolute right-2 top-2 "
+    },
+    "b19w5m": {
+        "TYPE": "button",
+        "PARENT": "b0oozz",
+        "bid": "b19w5m",
+        "FINDEX": "a0",
+        "op": "delete_one",
+        "class": "bg-[var(--error-400)] hover:bg-[var(--error-600)] rounded-md text-white hover:scale-110 w-5 h-5 flex justify-center items-center cursor-pointer transition-all ease-in-out  "
+    },
+    "bc8zsq": {
+        "TYPE": "svg",
+        "PARENT": "b19w5m",
+        "bid": "bc8zsq",
+        "FINDEX": "a0",
+        "xmlns": "http://www.w3.org/2000/svg",
+        "width": "24",
+        "height": "24",
+        "viewBox": "0 0 24 24",
+        "fill": "none",
+        "stroke": "currentColor",
+        "stroke-width": "2",
+        "stroke-linecap": "round",
+        "stroke-linejoin": "round",
+        "innerSVG": "<path d=\"M18 6 6 18\"></path><path d=\"m6 6 12 12\"></path>"
+    }
+}
